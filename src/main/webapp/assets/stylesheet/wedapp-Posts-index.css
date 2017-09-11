@@ -1,0 +1,460 @@
+/* 公共 wedapp 和 Posts 里的 index.jsp ↓ */
+a {
+    color: #000;
+}
+
+.container {
+    padding-left: 60px;
+    padding-right: 60px;
+}
+
+.container:before, .container:after {
+    content: " ";
+    display: table;
+}
+
+.jumbotron {
+    padding-top: 48px;
+    padding-bottom: 48px;
+    margin-bottom: 30px;
+    color: inherit;
+    background-color: #eeeeee;
+}
+
+.center {
+    text-align: center;
+    border-radius: 6px;
+
+}
+
+h2 {
+    font-size: 1.2em;
+    letter-spacing: -1px;
+    margin-bottom: 30px;
+    text-align: center;
+    font-weight: normal;
+    color: #777;
+    line-height: 1;
+}
+
+/* 公共 wedapp 和 Posts 里的 index.jsp ↑ */
+
+aside section:first-child {
+    border: 0;
+    padding-top: 0;
+}
+
+aside section.user_info {
+    margin-top: 20px;
+}
+
+aside section {
+    padding: 10px 0;
+    margin-top: 20px;
+}
+
+aside section h1 {
+    font-size: 1.4em;
+    text-align: left;
+    letter-spacing: -1px;
+    margin-bottom: 3px;
+    margin-top: 0px;
+    line-height: 1;
+    font-family: inherit;
+    font-weight: 500;
+}
+
+aside section span {
+    display: block;
+    margin-bottom: 3px;
+    line-height: 1;
+}
+
+aside textarea {
+    height: 100px;
+    margin-bottom: 5px;
+}
+
+section {
+    overflow: auto;
+}
+
+.gravatar {
+    float: left;
+    margin-right: 10px;
+}
+
+.stats {
+    overflow: auto;
+    margin-top: 0;
+    padding: 0;
+}
+
+.stats a:first-child {
+    padding-left: 0;
+    border: 0;
+}
+
+.stats a {
+    float: left;
+    padding: 0 10px;
+    border-left: 1px solid #eeeeee;
+    color: gray;
+}
+
+.stats strong {
+    display: block;
+}
+
+.posts {
+    list-style: none;
+    padding: 0;
+}
+
+ol {
+    font-family: verdana, arial, helvetica, sans-serif;
+    font-size: 13px;
+    line-height: 18px;
+    margin: 33px;
+}
+
+.posts li {
+    padding: 10px 0;
+    border-top: 1px solid #e8e8e8;
+}
+
+.posts .gravatar {
+    float: left;
+    margin-right: 10px;
+    margin-top: 5px;
+}
+
+.posts .user {
+    margin-top: 5em;
+    padding-top: 0;
+}
+
+.posts .content {
+    display: block;
+    margin-left: 60px;
+}
+
+.posts .timestamp {
+    color: #777777;
+    display: block;
+    margin-left: 60px;
+}
+
+.alert-success {
+    background-color: #dff0d8;
+    border-color: #d6e9c6;
+    color: #3c763d;
+}
+
+.alert {
+    padding: 15px;
+    margin-bottom: 20px;
+    border: 1px solid transparent;
+    border-radius: 4px;
+}
+
+/* ↓ wedapp posts */
+strong {
+    font-weight: bold;
+}
+
+form {
+    display: block;
+    margin-top: 0em;
+}
+
+div.field {
+    margin-bottom: 10px;
+}
+
+textarea {
+    resize: vertical;
+    overflow: auto;
+}
+
+span.picture {
+    margin-top: 10px;
+}
+
+span.picture input {
+    border: 0;
+}
+
+/*  重写的   posets/post.jsp 评论回复那块 ↓ */
+body,
+ul,
+ol,
+li,
+button,
+input,
+textarea {
+    margin: 0;
+    padding: 0;
+    border: none;
+    outline: none;
+}
+
+ul,
+ol {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover,
+a:visited,
+a:link,
+a:active {
+    text-decoration: none;
+}
+
+fieldset,
+img {
+    border: 0;
+}
+
+button,
+input,
+select,
+textarea {
+    font-size: 100%;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+#pn {
+    /*width: 72.4%;*/
+    height: auto;
+    background: #fff;
+    margin: 0 auto;
+    padding: 10px;
+}
+
+.list0 {
+    padding: 20px 0 0 0;
+    position: relative;
+    border-top: 1px solid #eee;
+}
+
+.head {
+    width: 60px;
+    float: left;
+    margin-right: 10px;
+}
+
+.head a img {
+    width: 60px;
+    height: 60px;
+}
+
+.close {
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    color: #696e78;
+    font-size: 14px;
+    text-align: center;
+    line-height: 20px;
+}
+
+.close:hover {
+    color: #eb7350;
+}
+
+.content {
+    /*width: 450px;*/
+    line-height: 20px;
+    font-size: 14px;
+    margin-left: 70px;
+    word-wrap: break-word;
+}
+
+.content p {
+ padding: 15px;
+}
+
+.name, .name a {
+    color: #eb7350;
+}
+
+.pic {
+    margin: 5px 0;
+}
+
+.good:after {
+    clear: both;
+    content: '';
+    display: block;
+    width: 0;
+    height: 0;
+    visibility: hidden;
+}
+
+.good {
+    *zoom: 1;
+    padding-bottom: 5px;
+}
+
+.date {
+    /*float: left;*/
+    color: #808080;
+}
+
+.date .drop{
+    float: right;
+    padding-right: 100px;
+}
+
+.good a {
+    float: right;
+    color: #808080;
+}
+
+.people {
+    background: #F7F7F7;
+    height: 28px;
+    line-height: 28px;
+    padding-left: 10px;
+    margin: 5px 0;
+}
+
+.comment:after {
+    clear: both;
+    content: '';
+    display: block;
+    width: 0;
+    height: 0;
+    visibility: hidden;
+}
+
+.comment {
+    *zoom: 1;
+    padding: 10px 0;
+    border-top: 1px solid #eee;
+}
+
+.comment-left {
+    width: 30px;
+    float: left;
+    display: inline;
+    margin-right: 10px;
+}
+
+.comment-left a img {
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+}
+
+.comment-right {
+    float: right;
+    width: 93.9%;
+}
+
+.comment-text {
+    line-height: 18px;
+    padding-bottom: 10px;
+}
+
+.comment-text span {
+    color: #eb7350;
+}
+
+.comment-date {
+    font-size: 12px;
+    line-height: 14px;
+    color: #ccc;
+    position: relative;
+}
+.comment-date .drop{
+    float: right;
+    padding-right: 100px;
+}
+
+.comment-zan {
+    position: absolute;
+    right: 40px;
+    bottom: 0;
+    color: #808080;
+}
+
+.comment-dele {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    color: #808080;
+}
+
+.hf:after {
+    clear: both;
+    content: '';
+    display: block;
+    width: 0;
+    height: 0;
+    visibility: hidden;
+}
+
+.hf {
+    *zoom: 1;
+}
+
+.hf-text {
+    border: 1px solid #eee;
+    display: block;
+    height: 15px;
+    /*width: 438px;*/
+    padding: 5px;
+    resize: none;
+    color: #ccc;
+    font-size: 12px;
+}
+
+.hf-on .hf-text {
+    height: 60px;
+    color: #333;
+    border: 1px solid #ff8140;
+}
+
+.hf-btn {
+    float: right;
+    width: 65px;
+    height: 26px;
+    background: #f7f7f7;
+    color: #ccc;
+    font-size: 12px;
+    display: none;
+}
+
+.hf-btn-on {
+    background: #ff8140;
+    color: #fff;
+}
+
+.hf-nub {
+    float: right;
+    padding: 3px 5px;
+    color: #666;
+    display: none;
+}
+
+.hf-on .hf-btn {
+    display: inline;
+}
+
+.hf-on .hf-nub {
+    display: inline;
+}
+
+/*  重写的   posets/post.jsp 评论回复那块 ↑ */

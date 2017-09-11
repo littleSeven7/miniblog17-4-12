@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: org.apache.geronimo.bundles:aspectjrt:1.6.8_2">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.geronimo.bundles/aspectjrt/1.6.8_2/4ce8ecb258dc2e8133e8adbc590e328b2c3ed676/aspectjrt-1.6.8_2.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.geronimo.bundles/aspectjrt/1.6.8_2/2b7961b511f54dd6a7d7a9eb0ebdcb3eb99a7a42/aspectjrt-1.6.8_2-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

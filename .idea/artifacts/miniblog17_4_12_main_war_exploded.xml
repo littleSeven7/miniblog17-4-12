@@ -1,0 +1,58 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="miniblog17-4-12_main:war exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/miniblog17_4_12_main_war_exploded</output-path>
+    <root id="root">
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="miniblog17-4-12_main" />
+          <element id="module-output" name="miniblog17-4-12" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="file-copy" path="$PROJECT_DIR$/../../../myLib/struts/ojdbc7.jar" />
+          <element id="library" level="project" name="Gradle: c3p0:c3p0:0.9.1.2" />
+          <element id="library" level="project" name="Gradle: javax.servlet:jstl:1.2" />
+          <element id="library" level="project" name="Gradle: log4j:log4j:1.2.17" />
+          <element id="library" level="project" name="Gradle: org.hibernate:hibernate-core:5.1.0.Final" />
+          <element id="library" level="project" name="Gradle: org.springframework:spring-web:4.3.5.RELEASE" />
+          <element id="library" level="project" name="Gradle: org.springframework:spring-orm:4.3.5.RELEASE" />
+          <element id="library" level="project" name="Gradle: org.springframework:spring-webmvc:4.3.5.RELEASE" />
+          <element id="library" level="project" name="Gradle: com.fasterxml.jackson.core:jackson-databind:2.5.1" />
+          <element id="library" level="project" name="Gradle: org.hibernate:hibernate-validator:5.4.0.Final" />
+          <element id="library" level="project" name="Gradle: org.apache.geronimo.bundles:aspectjrt:1.6.8_2" />
+          <element id="library" level="project" name="Gradle: org.apache.geronimo.bundles:aspectjweaver:1.6.8_2" />
+          <element id="library" level="project" name="Gradle: cglib:cglib-nodep:3.2.4" />
+          <element id="library" level="project" name="Gradle: cglib:cglib:3.2.4" />
+          <element id="library" level="project" name="Gradle: org.springframework:spring-context-support:4.3.5.RELEASE" />
+          <element id="library" level="project" name="Gradle: javax.mail:mail:1.4.7" />
+          <element id="library" level="project" name="Gradle: org.jboss.logging:jboss-logging:3.3.0.Final" />
+          <element id="library" level="project" name="Gradle: org.hibernate.javax.persistence:hibernate-jpa-2.1-api:1.0.0.Final" />
+          <element id="library" level="project" name="Gradle: org.javassist:javassist:3.20.0-GA" />
+          <element id="library" level="project" name="Gradle: antlr:antlr:2.7.7" />
+          <element id="library" level="project" name="Gradle: org.apache.geronimo.specs:geronimo-jta_1.1_spec:1.1.1" />
+          <element id="library" level="project" name="Gradle: org.jboss:jandex:2.0.0.Final" />
+          <element id="library" level="project" name="Gradle: dom4j:dom4j:1.6.1" />
+          <element id="library" level="project" name="Gradle: org.hibernate.common:hibernate-commons-annotations:5.0.1.Final" />
+          <element id="library" level="project" name="Gradle: org.springframework:spring-aop:4.3.5.RELEASE" />
+          <element id="library" level="project" name="Gradle: org.springframework:spring-beans:4.3.5.RELEASE" />
+          <element id="library" level="project" name="Gradle: org.springframework:spring-context:4.3.5.RELEASE" />
+          <element id="library" level="project" name="Gradle: org.springframework:spring-core:4.3.5.RELEASE" />
+          <element id="library" level="project" name="Gradle: org.springframework:spring-jdbc:4.3.5.RELEASE" />
+          <element id="library" level="project" name="Gradle: org.springframework:spring-tx:4.3.5.RELEASE" />
+          <element id="library" level="project" name="Gradle: org.springframework:spring-expression:4.3.5.RELEASE" />
+          <element id="library" level="project" name="Gradle: com.fasterxml.jackson.core:jackson-annotations:2.5.0" />
+          <element id="library" level="project" name="Gradle: com.fasterxml.jackson.core:jackson-core:2.5.1" />
+          <element id="library" level="project" name="Gradle: javax.validation:validation-api:1.1.0.Final" />
+          <element id="library" level="project" name="Gradle: org.ow2.asm:asm:5.1" />
+          <element id="library" level="project" name="Gradle: org.apache.ant:ant:1.9.6" />
+          <element id="library" level="project" name="Gradle: javax.activation:activation:1.1" />
+          <element id="library" level="project" name="Gradle: xml-apis:xml-apis:1.0.b2" />
+          <element id="library" level="project" name="Gradle: commons-logging:commons-logging:1.2" />
+          <element id="library" level="project" name="Gradle: org.apache.ant:ant-launcher:1.9.6" />
+          <element id="library" level="project" name="Gradle: com.fasterxml:classmate:1.3.1" />
+        </element>
+      </element>
+      <element id="javaee-facet-resources" facet="miniblog17-4-12_main/web/Web Gradle : miniblog17-4-12-0.01.war" />
+      <element id="artifact" artifact-name="Gradle : miniblog17-4-12 : miniblog17-4-12-0.01.war" />
+    </root>
+  </artifact>
+</component>
