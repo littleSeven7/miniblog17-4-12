@@ -1,17 +1,16 @@
 package fish.miniblog.controller;
 
+import fish.miniblog.model.Comments;
 import fish.miniblog.model.Posts;
 import fish.miniblog.model.Relationships;
 import fish.miniblog.model.Users;
 import fish.miniblog.service.UsersService;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.PathVariable;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RequestMethod;
+import org.springframework.web.bind.annotation.*;
 
 import javax.annotation.Resource;
+import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpSession;
 import java.util.List;
 
@@ -34,7 +33,7 @@ public class PostController {
             System.out.println(":成功跳转到(重定向) posts/index页面 ");
             u = (Users) session.getAttribute("session_login_user"); // 获取当前登录的用户
             info(session, model);
-            return "posts/index";
+            return "postsAnd/index";
         }
     }
 
@@ -53,12 +52,12 @@ public class PostController {
 
             info(session, model);
 
-            return "posts/post";
+            return "postsAnd/post";
         }
     }
 
     // 个人页面里 关注 (post请求)
-    @RequestMapping(value = "/relationships/{id}", method = RequestMethod.POST)
+    @RequestMapping(value = "/relationships/{id}", method = {RequestMethod.GET, RequestMethod.POST})
     public String relationships(@PathVariable int id, HttpSession session, Model model) {
         u = (Users) session.getAttribute("session_login_user"); // 获取当前登录的用户
 
@@ -74,12 +73,15 @@ public class PostController {
         model.addAttribute("info", "添加好友成功");
 
 //        return "forward:/posts/" + id; // 转发
-        return "forward:/posts/{id}";
+
+//        return "forward:/users/index";
+//        return "forward:/posts/{id}";
+        return "redirect: /posts/" + id;
     }
 
 
     // 个人页面里 取消关注 (post请求)
-    @RequestMapping(value = "/relationships_f/{id}", method = RequestMethod.POST)
+    @RequestMapping(value = "/relationships_f/{id}", method = {RequestMethod.GET, RequestMethod.POST})
     public String relationships_f(@PathVariable int id, HttpSession session, Model model) {
         u = (Users) session.getAttribute("session_login_user"); // 获取当前登录的用户
 
@@ -92,7 +94,11 @@ public class PostController {
 
 
 //        return "forward:/posts/" + id;
-        return "forward:/posts/{id}";
+
+//        return "forward:/users/index";
+//        return "forward:/posts/{id}";
+        return "redirect: /posts/" + id;
+
     }
 
     // 删除
@@ -102,6 +108,35 @@ public class PostController {
         usersService.delete(id);
         model.addAttribute("info", "删除成功");
         return "forward:/posts/index";
+
+    }
+
+    @RequestMapping(value = "/comments")
+    public String comments( HttpSession session, Model model, HttpServletRequest request) {
+        String body = request.getParameter("body"); // 评论的内容
+        u = (Users) session.getAttribute("session_login_user");//使用这个会话的，就是当前用户
+//        Users users = (Users) session.getAttribute("session_user");//使用这个会话的，就是当前用户
+//        int id = (int) users.getId();
+        int p = toInt(request.getParameter("commId")); // 发布出去博客的id
+        Posts posts = new Posts();
+
+        posts.setId(p);
+        Comments c = new Comments();
+        c.setBody(body);
+        c.setC_user_id(u);//被评论者
+        c.setC_post_id(posts);//评论者
+        boolean bl = usersService.comments(c);
+        if (bl) {
+
+            model.addAttribute("info", "评论成功！");
+//            return "forward:/posts/{id}";
+            return "redirect:/posts/index";
+        } else {
+            model.addAttribute("info", "评论失败！");
+//            return "forward:/posts/{id}";
+            return "redirect:/posts/index";
+        }
+
     }
 
 
@@ -111,7 +146,7 @@ public class PostController {
         System.out.println("进入查找所有好友页面");
         List<Users> users = usersService.getUsersAll();
         model.addAttribute("session_users_all", users);
-        return "posts/users";
+        return "postsAnd/users";
     }
 
     public void info(HttpSession session, Model model) {
@@ -130,4 +165,14 @@ public class PostController {
     }
 
 
+    /**
+     * string类型强转int
+     *
+     * @param strNum
+     * @return
+     */
+    public static int toInt(String strNum) {
+        Integer integer = new Integer(strNum);
+        return integer.parseInt(strNum);
+    }
 }

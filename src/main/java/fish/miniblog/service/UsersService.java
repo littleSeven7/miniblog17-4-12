@@ -24,6 +24,8 @@ public class UsersService {
     @Resource
     private MailUtil mailUtil;
 
+//    HttpServletRequest request;
+
     /**
      * 登录
      *
@@ -44,21 +46,25 @@ public class UsersService {
      */
 
     public boolean regist(Users u) {
+        u.setPicture("1.jpg");  // 默认图片   (因为是new是对象   它所有对象都是null 不给它值它是null值)
+        u.setAdmin("f");        // 管理员
+        u.setActivated("f");    // 是否邮箱激活(给它一个 f=false 值)
+
+//        u.setActivation_d("a"); //激活时给邮箱发送的连接(要带的内容)
+//        String basePath = request.getScheme() + "://" + request.getServerName() + ":" + request.getServerPort();
 
         // 组装方式  邮件的内容
         StringBuffer sb = new StringBuffer();
 //        sb.append("<!DOCTYPE html><html lang=\"en\"><head><meta charset=\"UTF-8\"><title>Title</title></head><body>");
         sb.append("<h1>南方微博</h1><p>您好，" + u.getName() + ",</p><p>欢迎使用南方微博，点击下面链接激活您的账号</p>");
-        sb.append("<a href=\"http://192.168.2.172:8080/account_activations?email=" + u.getEmail() + "\"/>Activate</a>");
+        sb.append("<a href=\"" + u.getActivation_d() + "/users/account_activations?id="
+                + u.getId() + "&name=" + u.getName() + "&email=" + u.getEmail() + "&password_d=" + u.getPassword_d() + "&created_t="
+                + u.getCreated_t() + "&picture=" + u.getPicture() + "&admin=" + u.getAdmin() + "\"");
+        sb.append(">Activate</a>");
 //        sb.append("</body></html>");
-
+        System.out.println("sb打印==/n" + sb);
 
         mailUtil.send(u.getEmail(), sb.toString());
-
-
-        u.setPicture("1.jpg");  // 默认图片   (因为是new是对象   它所有对象都是null 不给它值它是null值)
-        u.setAdmin("f");        // 管理员
-        u.setActivated("f");    // 是否邮箱激活(给它一个 f=false 值)
 
 
         return usersDao.regist(u);
@@ -108,6 +114,7 @@ public class UsersService {
     public List<Users> getRuser_id_p(Users u) {
         return usersDao.getRuser_id_p(u);
     }
+
     /**
      * 查发布的帖子
      *
@@ -186,5 +193,6 @@ public class UsersService {
     public boolean comments(Comments c) {
         return usersDao.comments(c);
     }
+
 
 }

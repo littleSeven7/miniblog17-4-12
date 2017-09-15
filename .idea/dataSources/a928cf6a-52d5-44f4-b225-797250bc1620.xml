@@ -4,9 +4,9 @@
     <root id="1"/>
     <schema id="2" parent="1" name="MINIBLOG">
       <ObjectId>96</ObjectId>
-      <IntrospectionTimestamp>2017-05-17.10:36:07</IntrospectionTimestamp>
+      <IntrospectionTimestamp>2017-09-12.19:56:55</IntrospectionTimestamp>
       <CreatedTimestamp>2017-02-07.10:04:50</CreatedTimestamp>
-      <ModifiedTimestamp>2017-05-17.10:36:07</ModifiedTimestamp>
+      <ModifiedTimestamp>2017-09-12.19:56:54</ModifiedTimestamp>
       <CommentsHash>3921694959618</CommentsHash>
       <Current>1</Current>
       <Visible>1</Visible>
@@ -138,48 +138,48 @@
       <ObjectId>2147483638</ObjectId>
     </schema>
     <sequence id="45" parent="2" name="SEQ_COMMENT">
-      <ObjectId>77558</ObjectId>
-      <CreatedTimestamp>2017-05-17.10:36:06</CreatedTimestamp>
-      <ModifiedTimestamp>2017-05-17.10:36:06</ModifiedTimestamp>
+      <ObjectId>77682</ObjectId>
+      <CreatedTimestamp>2017-09-12.19:56:39</CreatedTimestamp>
+      <ModifiedTimestamp>2017-09-12.19:56:39</ModifiedTimestamp>
       <SequenceIdentity>1</SequenceIdentity>
     </sequence>
     <sequence id="46" parent="2" name="SEQ_POST">
-      <ObjectId>77557</ObjectId>
-      <CreatedTimestamp>2017-05-17.10:36:06</CreatedTimestamp>
-      <ModifiedTimestamp>2017-05-17.10:36:06</ModifiedTimestamp>
+      <ObjectId>77681</ObjectId>
+      <CreatedTimestamp>2017-09-12.19:56:39</CreatedTimestamp>
+      <ModifiedTimestamp>2017-09-12.19:56:39</ModifiedTimestamp>
       <SequenceIdentity>1</SequenceIdentity>
     </sequence>
     <sequence id="47" parent="2" name="SEQ_RELATIONSHIPS">
-      <ObjectId>77559</ObjectId>
-      <CreatedTimestamp>2017-05-17.10:36:06</CreatedTimestamp>
-      <ModifiedTimestamp>2017-05-17.10:36:06</ModifiedTimestamp>
+      <ObjectId>77683</ObjectId>
+      <CreatedTimestamp>2017-09-12.19:56:39</CreatedTimestamp>
+      <ModifiedTimestamp>2017-09-12.19:56:39</ModifiedTimestamp>
       <SequenceIdentity>1</SequenceIdentity>
     </sequence>
     <sequence id="48" parent="2" name="SEQ_USER">
-      <ObjectId>77556</ObjectId>
-      <CreatedTimestamp>2017-05-17.10:36:06</CreatedTimestamp>
-      <ModifiedTimestamp>2017-05-17.10:36:06</ModifiedTimestamp>
+      <ObjectId>77680</ObjectId>
+      <CreatedTimestamp>2017-09-12.19:56:39</CreatedTimestamp>
+      <ModifiedTimestamp>2017-09-12.19:56:39</ModifiedTimestamp>
       <SequenceIdentity>1</SequenceIdentity>
     </sequence>
     <table id="49" parent="2" name="COMMENTS">
-      <ObjectId>77564</ObjectId>
-      <CreatedTimestamp>2017-05-17.10:36:06</CreatedTimestamp>
-      <ModifiedTimestamp>2017-05-17.10:36:06</ModifiedTimestamp>
+      <ObjectId>77688</ObjectId>
+      <CreatedTimestamp>2017-09-12.19:56:53</CreatedTimestamp>
+      <ModifiedTimestamp>2017-09-12.19:56:53</ModifiedTimestamp>
     </table>
     <table id="50" parent="2" name="POSTS">
-      <ObjectId>77562</ObjectId>
-      <CreatedTimestamp>2017-05-17.10:36:06</CreatedTimestamp>
-      <ModifiedTimestamp>2017-05-17.10:36:06</ModifiedTimestamp>
+      <ObjectId>77686</ObjectId>
+      <CreatedTimestamp>2017-09-12.19:56:52</CreatedTimestamp>
+      <ModifiedTimestamp>2017-09-12.19:56:52</ModifiedTimestamp>
     </table>
     <table id="51" parent="2" name="RELATIONSHIPS">
-      <ObjectId>77566</ObjectId>
-      <CreatedTimestamp>2017-05-17.10:36:07</CreatedTimestamp>
-      <ModifiedTimestamp>2017-05-17.10:36:07</ModifiedTimestamp>
+      <ObjectId>77690</ObjectId>
+      <CreatedTimestamp>2017-09-12.19:56:54</CreatedTimestamp>
+      <ModifiedTimestamp>2017-09-12.19:56:54</ModifiedTimestamp>
     </table>
     <table id="52" parent="2" name="USERS">
-      <ObjectId>77560</ObjectId>
-      <CreatedTimestamp>2017-05-17.10:36:06</CreatedTimestamp>
-      <ModifiedTimestamp>2017-05-17.10:36:06</ModifiedTimestamp>
+      <ObjectId>77684</ObjectId>
+      <CreatedTimestamp>2017-09-12.19:56:51</CreatedTimestamp>
+      <ModifiedTimestamp>2017-09-12.19:56:51</ModifiedTimestamp>
     </table>
     <table id="53" parent="2" name="user">
       <ObjectId>76024</ObjectId>
@@ -212,38 +212,38 @@
       <Position>6</Position>
       <DataType>DATE|0</DataType>
     </column>
-    <index id="60" parent="49" name="SYS_C0012275">
-      <ObjectId>77565</ObjectId>
+    <index id="60" parent="49" name="SYS_C0012341">
+      <ObjectId>77689</ObjectId>
       <NameSurrogate>1</NameSurrogate>
-      <CreatedTimestamp>2017-05-17.10:36:07</CreatedTimestamp>
-      <ModifiedTimestamp>2017-05-17.10:36:07</ModifiedTimestamp>
+      <CreatedTimestamp>2017-09-12.19:56:54</CreatedTimestamp>
+      <ModifiedTimestamp>2017-09-12.19:56:54</ModifiedTimestamp>
       <TablespaceName>USERS</TablespaceName>
       <ColNames>ID</ColNames>
       <Unique>1</Unique>
     </index>
-    <key id="61" parent="49" name="SYS_C0012275">
+    <key id="61" parent="49" name="SYS_C0012341">
       <NameSurrogate>1</NameSurrogate>
-      <ModifiedTimestamp>2017-05-17.10:36:07</ModifiedTimestamp>
+      <ModifiedTimestamp>2017-09-12.19:56:54</ModifiedTimestamp>
       <ColNames>ID</ColNames>
       <InitiallyDeferred>1</InitiallyDeferred>
-      <UnderlyingIndexName>SYS_C0012275</UnderlyingIndexName>
+      <UnderlyingIndexName>SYS_C0012341</UnderlyingIndexName>
       <Primary>1</Primary>
     </key>
-    <foreign-key id="62" parent="49" name="SYS_C0012276">
+    <foreign-key id="62" parent="49" name="SYS_C0012342">
       <NameSurrogate>1</NameSurrogate>
-      <ModifiedTimestamp>2017-05-17.10:36:07</ModifiedTimestamp>
+      <ModifiedTimestamp>2017-09-12.19:56:54</ModifiedTimestamp>
       <ColNames>C_USER_ID</ColNames>
       <InitiallyDeferred>1</InitiallyDeferred>
       <RefTableName>USERS</RefTableName>
-      <RefKeyName>SYS_C0012272</RefKeyName>
+      <RefKeyName>SYS_C0012338</RefKeyName>
     </foreign-key>
-    <foreign-key id="63" parent="49" name="SYS_C0012277">
+    <foreign-key id="63" parent="49" name="SYS_C0012343">
       <NameSurrogate>1</NameSurrogate>
-      <ModifiedTimestamp>2017-05-17.10:36:07</ModifiedTimestamp>
+      <ModifiedTimestamp>2017-09-12.19:56:54</ModifiedTimestamp>
       <ColNames>C_POST_ID</ColNames>
       <InitiallyDeferred>1</InitiallyDeferred>
       <RefTableName>POSTS</RefTableName>
-      <RefKeyName>SYS_C0012273</RefKeyName>
+      <RefKeyName>SYS_C0012339</RefKeyName>
     </foreign-key>
     <column id="64" parent="50" name="ID">
       <Position>1</Position>
@@ -266,30 +266,30 @@
       <Position>5</Position>
       <DataType>DATE|0</DataType>
     </column>
-    <index id="69" parent="50" name="SYS_C0012273">
-      <ObjectId>77563</ObjectId>
+    <index id="69" parent="50" name="SYS_C0012339">
+      <ObjectId>77687</ObjectId>
       <NameSurrogate>1</NameSurrogate>
-      <CreatedTimestamp>2017-05-17.10:36:06</CreatedTimestamp>
-      <ModifiedTimestamp>2017-05-17.10:36:06</ModifiedTimestamp>
+      <CreatedTimestamp>2017-09-12.19:56:53</CreatedTimestamp>
+      <ModifiedTimestamp>2017-09-12.19:56:53</ModifiedTimestamp>
       <TablespaceName>USERS</TablespaceName>
       <ColNames>ID</ColNames>
       <Unique>1</Unique>
     </index>
-    <key id="70" parent="50" name="SYS_C0012273">
+    <key id="70" parent="50" name="SYS_C0012339">
       <NameSurrogate>1</NameSurrogate>
-      <ModifiedTimestamp>2017-05-17.10:36:06</ModifiedTimestamp>
+      <ModifiedTimestamp>2017-09-12.19:56:53</ModifiedTimestamp>
       <ColNames>ID</ColNames>
       <InitiallyDeferred>1</InitiallyDeferred>
-      <UnderlyingIndexName>SYS_C0012273</UnderlyingIndexName>
+      <UnderlyingIndexName>SYS_C0012339</UnderlyingIndexName>
       <Primary>1</Primary>
     </key>
-    <foreign-key id="71" parent="50" name="SYS_C0012274">
+    <foreign-key id="71" parent="50" name="SYS_C0012340">
       <NameSurrogate>1</NameSurrogate>
-      <ModifiedTimestamp>2017-05-17.10:36:06</ModifiedTimestamp>
+      <ModifiedTimestamp>2017-09-12.19:56:53</ModifiedTimestamp>
       <ColNames>P_USER_ID</ColNames>
       <InitiallyDeferred>1</InitiallyDeferred>
       <RefTableName>USERS</RefTableName>
-      <RefKeyName>SYS_C0012272</RefKeyName>
+      <RefKeyName>SYS_C0012338</RefKeyName>
     </foreign-key>
     <column id="72" parent="51" name="ID">
       <Position>1</Position>
@@ -312,38 +312,38 @@
       <Position>5</Position>
       <DataType>DATE|0</DataType>
     </column>
-    <index id="77" parent="51" name="SYS_C0012278">
-      <ObjectId>77567</ObjectId>
+    <index id="77" parent="51" name="SYS_C0012344">
+      <ObjectId>77691</ObjectId>
       <NameSurrogate>1</NameSurrogate>
-      <CreatedTimestamp>2017-05-17.10:36:07</CreatedTimestamp>
-      <ModifiedTimestamp>2017-05-17.10:36:07</ModifiedTimestamp>
+      <CreatedTimestamp>2017-09-12.19:56:54</CreatedTimestamp>
+      <ModifiedTimestamp>2017-09-12.19:56:54</ModifiedTimestamp>
       <TablespaceName>USERS</TablespaceName>
       <ColNames>ID</ColNames>
       <Unique>1</Unique>
     </index>
-    <key id="78" parent="51" name="SYS_C0012278">
+    <key id="78" parent="51" name="SYS_C0012344">
       <NameSurrogate>1</NameSurrogate>
-      <ModifiedTimestamp>2017-05-17.10:36:07</ModifiedTimestamp>
+      <ModifiedTimestamp>2017-09-12.19:56:54</ModifiedTimestamp>
       <ColNames>ID</ColNames>
       <InitiallyDeferred>1</InitiallyDeferred>
-      <UnderlyingIndexName>SYS_C0012278</UnderlyingIndexName>
+      <UnderlyingIndexName>SYS_C0012344</UnderlyingIndexName>
       <Primary>1</Primary>
     </key>
-    <foreign-key id="79" parent="51" name="SYS_C0012279">
+    <foreign-key id="79" parent="51" name="SYS_C0012345">
       <NameSurrogate>1</NameSurrogate>
-      <ModifiedTimestamp>2017-05-17.10:36:07</ModifiedTimestamp>
+      <ModifiedTimestamp>2017-09-12.19:56:54</ModifiedTimestamp>
       <ColNames>R_USER_ID</ColNames>
       <InitiallyDeferred>1</InitiallyDeferred>
       <RefTableName>USERS</RefTableName>
-      <RefKeyName>SYS_C0012272</RefKeyName>
+      <RefKeyName>SYS_C0012338</RefKeyName>
     </foreign-key>
-    <foreign-key id="80" parent="51" name="SYS_C0012280">
+    <foreign-key id="80" parent="51" name="SYS_C0012346">
       <NameSurrogate>1</NameSurrogate>
-      <ModifiedTimestamp>2017-05-17.10:36:07</ModifiedTimestamp>
+      <ModifiedTimestamp>2017-09-12.19:56:54</ModifiedTimestamp>
       <ColNames>R_USER_ID_P</ColNames>
       <InitiallyDeferred>1</InitiallyDeferred>
       <RefTableName>USERS</RefTableName>
-      <RefKeyName>SYS_C0012272</RefKeyName>
+      <RefKeyName>SYS_C0012338</RefKeyName>
     </foreign-key>
     <column id="81" parent="52" name="ID">
       <Position>1</Position>
@@ -405,32 +405,32 @@
       <Position>14</Position>
       <DataType>DATE|0</DataType>
     </column>
-    <index id="95" parent="52" name="SYS_C0012272">
-      <ObjectId>77561</ObjectId>
+    <index id="95" parent="52" name="SYS_C0012338">
+      <ObjectId>77685</ObjectId>
       <NameSurrogate>1</NameSurrogate>
-      <CreatedTimestamp>2017-05-17.10:36:06</CreatedTimestamp>
-      <ModifiedTimestamp>2017-05-17.10:36:06</ModifiedTimestamp>
+      <CreatedTimestamp>2017-09-12.19:56:52</CreatedTimestamp>
+      <ModifiedTimestamp>2017-09-12.19:56:52</ModifiedTimestamp>
       <TablespaceName>USERS</TablespaceName>
       <ColNames>ID</ColNames>
       <Unique>1</Unique>
     </index>
-    <key id="96" parent="52" name="SYS_C0012272">
+    <key id="96" parent="52" name="SYS_C0012338">
       <NameSurrogate>1</NameSurrogate>
-      <ModifiedTimestamp>2017-05-17.10:36:06</ModifiedTimestamp>
+      <ModifiedTimestamp>2017-09-12.19:56:52</ModifiedTimestamp>
       <ColNames>ID</ColNames>
       <InitiallyDeferred>1</InitiallyDeferred>
-      <UnderlyingIndexName>SYS_C0012272</UnderlyingIndexName>
+      <UnderlyingIndexName>SYS_C0012338</UnderlyingIndexName>
       <Primary>1</Primary>
     </key>
-    <check id="97" parent="52" name="SYS_C0012270">
+    <check id="97" parent="52" name="SYS_C0012336">
       <NameSurrogate>1</NameSurrogate>
-      <ModifiedTimestamp>2017-05-17.10:36:06</ModifiedTimestamp>
+      <ModifiedTimestamp>2017-09-12.19:56:52</ModifiedTimestamp>
       <ColNames>ADMIN</ColNames>
       <Predicate>admin IN (&apos;f&apos;, &apos;t&apos;)</Predicate>
     </check>
-    <check id="98" parent="52" name="SYS_C0012271">
+    <check id="98" parent="52" name="SYS_C0012337">
       <NameSurrogate>1</NameSurrogate>
-      <ModifiedTimestamp>2017-05-17.10:36:06</ModifiedTimestamp>
+      <ModifiedTimestamp>2017-09-12.19:56:52</ModifiedTimestamp>
       <ColNames>ACTIVATED</ColNames>
       <Predicate>activated IN (&apos;f&apos;, &apos;t&apos;)</Predicate>
     </check>

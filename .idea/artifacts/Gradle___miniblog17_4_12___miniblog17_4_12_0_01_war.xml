@@ -6,6 +6,17 @@
     </properties>
     <root id="archive" name="miniblog17-4-12-0.01.war">
       <element id="artifact" artifact-name="Gradle : miniblog17-4-12 : miniblog17-4-12-0.01.war (exploded)" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="miniblog17-4-12" />
+          <element id="module-output" name="miniblog17-4-12_test" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="Gradle: javax:javaee-web-api:7.0" />
+          <element id="library" level="project" name="Gradle: junit:junit:4.12" />
+          <element id="library" level="project" name="Gradle: org.hamcrest:hamcrest-core:1.3" />
+        </element>
+      </element>
     </root>
   </artifact>
 </component>

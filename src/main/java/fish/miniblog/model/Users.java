@@ -25,17 +25,17 @@ public class Users {
 
     @Column(length = 30)
     @Size(min = 1, max = 13, message = "*  用户名长度在1到13个字符之间")
-    @NotEmpty(message = "*  用户名不能为空")
+//    @NotEmpty(message = "*  用户名不能为空")
     private String name;
 
     @Column(length = 30)
     @Size(min = 1, max = 12, message = "*  密码长度在1到12个字符之间")
-    @NotEmpty(message = "*  密码不能为空")
+//    @NotEmpty(message = "*  密码不能为空")
     private String password_d;
 
-    @Column(nullable = false, length = 50)  // unique = true 唯一
+//    @Column(nullable = false, length = 50)  // unique = true 唯一
     @Email(regexp = "^(\\w)+(\\.\\w+)*@(\\w)+((\\.\\w{2,3}){1,3})$", message = "*  错误的邮箱格式")
-    @NotEmpty(message = "*  email 不能为空")
+//    @NotEmpty(message = "*  email 不能为空")
     private String email;
 
     @DateTimeFormat(pattern = "yyyy-MM-dd hh24:mi:ss")

@@ -8,7 +8,10 @@ import oracle.jdbc.proxy.annotation.Post;
 import org.hibernate.Session;
 import org.springframework.stereotype.Repository;
 
+import java.text.SimpleDateFormat;
+import java.util.Date;
 import java.util.List;
+import java.util.Random;
 
 /**
  * Created by Administrator on 2017/4/13.
@@ -47,12 +50,24 @@ public class UsersDao extends BaseDao {
      * @param u
      */
     public void getUsersById(Users u) {
-        /*u.setActivated("t");
-        sessionFactory.getCurrentSession().update(u);*/
-        String sql = "update users set activated='t' where id=?";
-        sessionFactory.getCurrentSession().createSQLQuery(sql).setParameter(1, u.getId()).executeUpdate();
+        Date now = new Date();
+        SimpleDateFormat dateFormat = new SimpleDateFormat("yyyy/MM/dd HH:mm:ss");//可以方便地修改日期格式
+        String hehe = dateFormat.format(now);
+
+        String sql = "update users set activated='t' where id=" + u.getId();
+        sessionFactory.getCurrentSession().createSQLQuery(sql).executeUpdate();
     }
 
+  /*  public void getUsersById(Users u) {
+
+//        sessionFactory.getCurrentSession().get(Users.class, u.getId());
+        u.setActivated("t");
+        sessionFactory.getCurrentSession().update(u);
+*//*        String sql = "update users set activated='t' where id=?";
+        System.out.println(u.getId());
+        sessionFactory.getCurrentSession().createSQLQuery(sql).setParameter(1, u.getId()).executeUpdate();*//*
+    }
+*/
 
     /**
      * 修改用户资料
@@ -121,9 +136,9 @@ public class UsersDao extends BaseDao {
         session.delete(session.get(Post.class, postid));
     }
 
-    public void deletecomments(long id){
+    public void deletecomments(long id) {
         Session session = getSession();
-        sessionFactory.getCurrentSession().delete(session.get(Comments.class,id));
+        sessionFactory.getCurrentSession().delete(session.get(Comments.class, id));
     }
 
     /**
@@ -193,5 +208,27 @@ public class UsersDao extends BaseDao {
     public boolean comments(Comments c) {
         long bl = (long) sessionFactory.getCurrentSession().save(c);
         return bl == 0 ? false : true;
+    }
+
+    //生成随机数字和字母,
+    public static String getStringRandom(int length) {
+
+        String val = "";
+        Random random = new Random();
+
+        //参数length，表示生成几位随机数
+        for (int i = 0; i < length; i++) {
+
+            String charOrNum = random.nextInt(2) % 2 == 0 ? "char" : "num";
+            //输出字母还是数字
+            if ("char".equalsIgnoreCase(charOrNum)) {
+                //输出是大写字母还是小写字母
+                int temp = random.nextInt(2) % 2 == 0 ? 65 : 97;
+                val += (char) (random.nextInt(26) + temp);
+            } else if ("num".equalsIgnoreCase(charOrNum)) {
+                val += String.valueOf(random.nextInt(10));
+            }
+        }
+        return val;
     }
 }

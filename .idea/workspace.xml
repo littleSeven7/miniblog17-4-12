@@ -7,28 +7,57 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="54811ed4-b2ef-4307-9d71-34780e9fc7fc" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/main/fish/miniblog/controller/UserController.class" afterPath="$PROJECT_DIR$/build/classes/main/fish/miniblog/controller/UserController.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/main/fish/miniblog/dao/UsersDao.class" afterPath="$PROJECT_DIR$/build/classes/main/fish/miniblog/dao/UsersDao.class" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/main/fish/miniblog/controller/UserController.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/main/fish/miniblog/dao/UsersDao.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/libs/exploded/miniblog17-4-12-0.01.war/META-INF/MANIFEST.MF" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/libs/exploded/miniblog17-4-12-0.01.war/WEB-INF/view/posts/edit.jsp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/libs/exploded/miniblog17-4-12-0.01.war/WEB-INF/view/posts/index.jsp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/libs/exploded/miniblog17-4-12-0.01.war/WEB-INF/view/posts/post.jsp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/libs/exploded/miniblog17-4-12-0.01.war/WEB-INF/view/posts/users.jsp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/tmp/war/MANIFEST.MF" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/miniblog17_4_12_main_war_exploded/WEB-INF/view/posts/edit.jsp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/miniblog17_4_12_main_war_exploded/WEB-INF/view/posts/index.jsp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/miniblog17_4_12_main_war_exploded/WEB-INF/view/posts/post.jsp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/miniblog17_4_12_main_war_exploded/WEB-INF/view/posts/users.jsp" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/3.1/taskArtifacts/cache.properties.lock" afterPath="$PROJECT_DIR$/.gradle/3.1/taskArtifacts/cache.properties.lock" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/3.1/taskArtifacts/fileHashes.bin" afterPath="$PROJECT_DIR$/.gradle/3.1/taskArtifacts/fileHashes.bin" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/3.1/taskArtifacts/fileSnapshots.bin" afterPath="$PROJECT_DIR$/.gradle/3.1/taskArtifacts/fileSnapshots.bin" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/3.1/taskArtifacts/taskArtifacts.bin" afterPath="$PROJECT_DIR$/.gradle/3.1/taskArtifacts/taskArtifacts.bin" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources/a928cf6a-52d5-44f4-b225-797250bc1620/_metadata_/metadata" afterPath="$PROJECT_DIR$/.idea/dataSources/a928cf6a-52d5-44f4-b225-797250bc1620/_metadata_/metadata" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources/a928cf6a-52d5-44f4-b225-797250bc1620/_metadata_/metadata.values.at" afterPath="$PROJECT_DIR$/.idea/dataSources/a928cf6a-52d5-44f4-b225-797250bc1620/_metadata_/metadata.values.at" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/main/fish/miniblog/controller/PostController.class" afterPath="$PROJECT_DIR$/build/classes/main/fish/miniblog/controller/PostController.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/main/fish/miniblog/model/Users.class" afterPath="$PROJECT_DIR$/build/classes/main/fish/miniblog/model/Users.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/main/fish/miniblog/service/UsersService.class" afterPath="$PROJECT_DIR$/build/classes/main/fish/miniblog/service/UsersService.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/libs/exploded/miniblog17-4-12-0.01.war/WEB-INF/classes/fish/miniblog/controller/PostController.class" afterPath="$PROJECT_DIR$/build/libs/exploded/miniblog17-4-12-0.01.war/WEB-INF/classes/fish/miniblog/controller/PostController.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/libs/exploded/miniblog17-4-12-0.01.war/WEB-INF/classes/fish/miniblog/controller/UserController.class" afterPath="$PROJECT_DIR$/build/libs/exploded/miniblog17-4-12-0.01.war/WEB-INF/classes/fish/miniblog/controller/UserController.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/libs/exploded/miniblog17-4-12-0.01.war/WEB-INF/classes/fish/miniblog/dao/UsersDao.class" afterPath="$PROJECT_DIR$/build/libs/exploded/miniblog17-4-12-0.01.war/WEB-INF/classes/fish/miniblog/dao/UsersDao.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/libs/exploded/miniblog17-4-12-0.01.war/WEB-INF/classes/fish/miniblog/model/Users.class" afterPath="$PROJECT_DIR$/build/libs/exploded/miniblog17-4-12-0.01.war/WEB-INF/classes/fish/miniblog/model/Users.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/libs/exploded/miniblog17-4-12-0.01.war/WEB-INF/classes/fish/miniblog/service/UsersService.class" afterPath="$PROJECT_DIR$/build/libs/exploded/miniblog17-4-12-0.01.war/WEB-INF/classes/fish/miniblog/service/UsersService.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/libs/miniblog17-4-12-0.01.war" afterPath="$PROJECT_DIR$/build/libs/miniblog17-4-12-0.01.war" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/miniblog17_4_12_main_war_exploded/WEB-INF/classes/fish/miniblog/controller/PostController.class" afterPath="$PROJECT_DIR$/out/artifacts/miniblog17_4_12_main_war_exploded/WEB-INF/classes/fish/miniblog/controller/PostController.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/miniblog17_4_12_main_war_exploded/WEB-INF/classes/fish/miniblog/controller/UserController.class" afterPath="$PROJECT_DIR$/out/artifacts/miniblog17_4_12_main_war_exploded/WEB-INF/classes/fish/miniblog/controller/UserController.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/miniblog17_4_12_main_war_exploded/WEB-INF/classes/fish/miniblog/dao/UsersDao.class" afterPath="$PROJECT_DIR$/out/artifacts/miniblog17_4_12_main_war_exploded/WEB-INF/classes/fish/miniblog/dao/UsersDao.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/miniblog17_4_12_main_war_exploded/WEB-INF/classes/fish/miniblog/model/Users.class" afterPath="$PROJECT_DIR$/out/artifacts/miniblog17_4_12_main_war_exploded/WEB-INF/classes/fish/miniblog/model/Users.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/miniblog17_4_12_main_war_exploded/WEB-INF/classes/fish/miniblog/service/UsersService.class" afterPath="$PROJECT_DIR$/out/artifacts/miniblog17_4_12_main_war_exploded/WEB-INF/classes/fish/miniblog/service/UsersService.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/miniblog17_4_12_main_war_exploded/miniblog17-4-12-0.01.war" afterPath="$PROJECT_DIR$/out/artifacts/miniblog17_4_12_main_war_exploded/miniblog17-4-12-0.01.war" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/artifacts/Gradle___miniblog17_4_12___miniblog17_4_12_0_01_war.xml" afterPath="$PROJECT_DIR$/.idea/artifacts/Gradle___miniblog17_4_12___miniblog17_4_12_0_01_war.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/artifacts/Gradle___miniblog17_4_12___miniblog17_4_12_0_01_war__exploded_.xml" afterPath="$PROJECT_DIR$/.idea/artifacts/Gradle___miniblog17_4_12___miniblog17_4_12_0_01_war__exploded_.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources/a928cf6a-52d5-44f4-b225-797250bc1620.xml" afterPath="$PROJECT_DIR$/.idea/dataSources/a928cf6a-52d5-44f4-b225-797250bc1620.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/libs/exploded/miniblog17-4-12-0.01.war/WEB-INF/view/posts/index.jsp" afterPath="$PROJECT_DIR$/build/libs/exploded/miniblog17-4-12-0.01.war/WEB-INF/view/posts/index.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/libs/exploded/miniblog17-4-12-0.01.war/WEB-INF/view/posts/post.jsp" afterPath="$PROJECT_DIR$/build/libs/exploded/miniblog17-4-12-0.01.war/WEB-INF/view/posts/post.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/miniblog17_4_12_main_war_exploded/WEB-INF/view/posts/index.jsp" afterPath="$PROJECT_DIR$/out/artifacts/miniblog17_4_12_main_war_exploded/WEB-INF/view/posts/index.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/miniblog17_4_12_main_war_exploded/WEB-INF/view/posts/post.jsp" afterPath="$PROJECT_DIR$/out/artifacts/miniblog17_4_12_main_war_exploded/WEB-INF/view/posts/post.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/libs/exploded/miniblog17-4-12-0.01.war/WEB-INF/classes/spring-root.xml" afterPath="$PROJECT_DIR$/build/libs/exploded/miniblog17-4-12-0.01.war/WEB-INF/classes/spring-root.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/resources/main/spring-root.xml" afterPath="$PROJECT_DIR$/build/resources/main/spring-root.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/miniblog17_4_12_main_war_exploded/WEB-INF/classes/spring-root.xml" afterPath="$PROJECT_DIR$/out/artifacts/miniblog17_4_12_main_war_exploded/WEB-INF/classes/spring-root.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/miniblog17-4-12/spring-root.xml" afterPath="$PROJECT_DIR$/out/production/miniblog17-4-12/spring-root.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/fish/miniblog/controller/PostController.java" afterPath="$PROJECT_DIR$/src/main/java/fish/miniblog/controller/PostController.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/fish/miniblog/controller/UserController.java" afterPath="$PROJECT_DIR$/src/main/java/fish/miniblog/controller/UserController.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/fish/miniblog/dao/UsersDao.java" afterPath="$PROJECT_DIR$/src/main/java/fish/miniblog/dao/UsersDao.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/fish/miniblog/model/Users.java" afterPath="$PROJECT_DIR$/src/main/java/fish/miniblog/model/Users.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/fish/miniblog/service/UsersService.java" afterPath="$PROJECT_DIR$/src/main/java/fish/miniblog/service/UsersService.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/posts/index.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/posts/index.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/posts/post.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/posts/post.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/spring-root.xml" afterPath="$PROJECT_DIR$/src/main/resources/spring-root.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/posts/edit.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/postsAnd/edit.jsp" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/posts/index.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/postsAnd/index.jsp" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/posts/post.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/postsAnd/post.jsp" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/posts/users.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/postsAnd/users.jsp" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -102,24 +131,6 @@
                 <option name="myItemType" value="com.intellij.openapi.externalSystem.view.TasksNode" />
               </PATH_ELEMENT>
             </PATH>
-            <PATH>
-              <PATH_ELEMENT>
-                <option name="myItemId" value="" />
-                <option name="myItemType" value="com.intellij.openapi.externalSystem.view.ExternalProjectsStructure$RootNode" />
-              </PATH_ELEMENT>
-              <PATH_ELEMENT>
-                <option name="myItemId" value="miniblog17-4-12" />
-                <option name="myItemType" value="com.intellij.openapi.externalSystem.view.ProjectNode" />
-              </PATH_ELEMENT>
-              <PATH_ELEMENT>
-                <option name="myItemId" value="Tasks" />
-                <option name="myItemType" value="com.intellij.openapi.externalSystem.view.TasksNode" />
-              </PATH_ELEMENT>
-              <PATH_ELEMENT>
-                <option name="myItemId" value="build" />
-                <option name="myItemType" value="com.intellij.openapi.externalSystem.view.TasksNode$1" />
-              </PATH_ELEMENT>
-            </PATH>
           </tree_state>
         </projects_view>
       </state>
@@ -127,11 +138,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="UserController.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="UserController.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/fish/miniblog/controller/UserController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="157" column="44" lean-forward="false" selection-start-line="157" selection-start-column="43" selection-end-line="157" selection-end-column="44" />
+            <state relative-caret-position="230">
+              <caret line="121" column="0" lean-forward="false" selection-start-line="121" selection-start-column="0" selection-end-line="121" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -142,8 +153,28 @@
       <file leaf-file-name="console.sql" pinned="false" current-in-tab="false">
         <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/a928cf6a-52d5-44f4-b225-797250bc1620/console.sql">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1904">
-              <caret line="112" column="0" lean-forward="false" selection-start-line="112" selection-start-column="0" selection-end-line="113" selection-end-column="23" />
+            <state relative-caret-position="1785">
+              <caret line="105" column="20" lean-forward="true" selection-start-line="105" selection-start-column="20" selection-end-line="105" selection-end-column="20" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Users.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/fish/miniblog/model/Users.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="493">
+              <caret line="52" column="24" lean-forward="false" selection-start-line="52" selection-start-column="12" selection-end-line="52" selection-end-column="24" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="post.jsp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/view/postsAnd/post.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="273">
+              <caret line="115" column="52" lean-forward="false" selection-start-line="115" selection-start-column="52" selection-end-line="117" selection-end-column="58" />
               <folding />
             </state>
           </provider>
@@ -152,68 +183,10 @@
       <file leaf-file-name="PostController.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/fish/miniblog/controller/PostController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="476">
-              <caret line="41" column="34" lean-forward="false" selection-start-line="41" selection-start-column="30" selection-end-line="41" selection-end-column="34" />
+            <state relative-caret-position="-51">
+              <caret line="60" column="32" lean-forward="false" selection-start-line="60" selection-start-column="32" selection-end-line="60" selection-end-column="45" />
               <folding>
-                <element signature="imports" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Posts.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/fish/miniblog/model/Posts.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="20" column="16" lean-forward="false" selection-start-line="20" selection-start-column="12" selection-end-line="20" selection-end-column="16" />
-              <folding>
-                <element signature="imports" expanded="false" />
-                <element signature="e#1191#1192#0" expanded="false" />
-                <element signature="e#1216#1217#0" expanded="false" />
-                <element signature="e#1250#1251#0" expanded="false" />
-                <element signature="e#1278#1279#0" expanded="false" />
-                <element signature="e#1309#1310#0" expanded="false" />
-                <element signature="e#1336#1337#0" expanded="false" />
-                <element signature="e#1376#1377#0" expanded="false" />
-                <element signature="e#1408#1409#0" expanded="false" />
-                <element signature="e#1443#1444#0" expanded="false" />
-                <element signature="e#1475#1476#0" expanded="false" />
-                <element signature="e#1524#1525#0" expanded="false" />
-                <element signature="e#1566#1567#0" expanded="false" />
-                <element signature="e#1600#1601#0" expanded="false" />
-                <element signature="e#1632#1633#0" expanded="false" />
-                <element signature="e#1680#1681#0" expanded="false" />
-                <element signature="e#1722#1723#0" expanded="false" />
-                <element signature="e#1756#1757#0" expanded="false" />
-                <element signature="e#1788#1789#0" expanded="false" />
-                <element signature="e#1836#1837#0" expanded="false" />
-                <element signature="e#1878#1879#0" expanded="false" />
-                <element signature="e#1922#1923#0" expanded="false" />
-                <element signature="e#1954#1955#0" expanded="false" />
-                <element signature="e#2012#2013#0" expanded="false" />
-                <element signature="e#2054#2055#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.jsp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/view/posts/index.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="748">
-              <caret line="44" column="42" lean-forward="false" selection-start-line="44" selection-start-column="37" selection-end-line="44" selection-end-column="42" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="post.jsp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/view/posts/post.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1938">
-              <caret line="114" column="101" lean-forward="false" selection-start-line="114" selection-start-column="101" selection-end-line="114" selection-end-column="101" />
-              <folding>
-                <element signature="n#c:if#0;n#c:forEach#0;n#c:forEach#0;n#jsp:root#0;n#!!top" expanded="false" />
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -222,8 +195,22 @@
       <file leaf-file-name="UsersService.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/fish/miniblog/service/UsersService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2533">
-              <caret line="186" column="36" lean-forward="false" selection-start-line="186" selection-start-column="36" selection-end-line="186" selection-end-column="36" />
+            <state relative-caret-position="315">
+              <caret line="91" column="14" lean-forward="true" selection-start-line="91" selection-start-column="14" selection-end-line="91" selection-end-column="14" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#2261#2262#0" expanded="true" />
+                <element signature="e#2301#2302#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.jsp" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/view/postsAnd/index.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="425">
+              <caret line="116" column="34" lean-forward="true" selection-start-line="116" selection-start-column="34" selection-end-line="116" selection-end-column="34" />
               <folding />
             </state>
           </provider>
@@ -232,12 +219,15 @@
       <file leaf-file-name="UsersDao.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/fish/miniblog/dao/UsersDao.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2924">
-              <caret line="186" column="0" lean-forward="false" selection-start-line="186" selection-start-column="0" selection-end-line="195" selection-end-column="5" />
+            <state relative-caret-position="230">
+              <caret line="58" column="0" lean-forward="false" selection-start-line="58" selection-start-column="0" selection-end-line="58" selection-end-column="0" />
               <folding>
-                <marker date="1505059860450" expanded="true" signature="1278:1319" ph="update users... " />
-                <marker date="1505059860450" expanded="true" signature="2907:2948" ph="DELETE from " />
-                <marker date="1505059860450" expanded="true" signature="3562:3629" ph="delete from " />
+                <element signature="imports" expanded="true" />
+                <marker date="1505441178817" expanded="true" signature="1448:1478" ph="update users... " />
+                <marker date="1505441178817" expanded="true" signature="1448:1488" ph="update users... " />
+                <marker date="1505441178817" expanded="true" signature="1816:1857" ph="update users... " />
+                <marker date="1505441178817" expanded="true" signature="3490:3531" ph="DELETE from " />
+                <marker date="1505441178817" expanded="true" signature="4147:4214" ph="delete from " />
               </folding>
             </state>
           </provider>
@@ -255,13 +245,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>password</find>
-      <find>unique</find>
-      <find>处理</find>
-      <find>status</find>
-      <find>session_user.name==</find>
-      <find>session_user.name</find>
-      <find>POST</find>
       <find>relationships</find>
       <find>from relationships where r_user_id</find>
       <find>getUsersByUsersId</find>
@@ -284,6 +267,13 @@
       <find>comment-date</find>
       <find>posts</find>
       <find>session_login_user</find>
+      <find>id</find>
+      <find>SimpleUrlHandlerMapping</find>
+      <find>mapping</find>
+      <find>forward</find>
+      <find>redirect</find>
+      <find>/index</find>
+      <find>session_user.id</find>
       <find>session_user</find>
     </findStrings>
   </component>
@@ -587,13 +577,8 @@
         <option value="$PROJECT_DIR$/src/main/java/fish/miniblog/model/Comment.java" />
         <option value="$APPLICATION_CONFIG_DIR$/consoles/db/afe4c751-60ff-4583-99b3-8af2ec7e7642/console.sql" />
         <option value="$PROJECT_DIR$/src/main/resources/db.properties" />
-        <option value="$PROJECT_DIR$/src/main/resources/spring-root.xml" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/h_f/footer.jsp" />
-        <option value="$PROJECT_DIR$/src/main/java/fish/miniblog/model/Relationships.java" />
-        <option value="$PROJECT_DIR$/src/main/java/fish/miniblog/model/Comments.java" />
         <option value="$PROJECT_DIR$/src/main/resources/log4j.properties" />
-        <option value="$PROJECT_DIR$/src/main/resources/spring-miniblog.xml" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/posts/edit.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/login.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/h_f/header.jsp" />
@@ -601,9 +586,7 @@
         <option value="$PROJECT_DIR$/src/main/resources/hibernate.cfg.xml" />
         <option value="$PROJECT_DIR$/src/main/webapp/ggg.html" />
         <option value="$PROJECT_DIR$/src/main/java/fish/miniblog/util/MailUtil.java" />
-        <option value="$PROJECT_DIR$/src/main/java/fish/miniblog/model/Users.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/index.jsp" />
-        <option value="$PROJECT_DIR$/src/main/java/fish/miniblog/model/Posts.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/posts/users.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/regist.jsp" />
         <option value="$PROJECT_DIR$/src/main/java/fish/miniblog/md5/MD5.java" />
@@ -611,13 +594,22 @@
         <option value="$PROJECT_DIR$/src/main/webapp/assets/javascript/posts_post_textarea.js" />
         <option value="$PROJECT_DIR$/src/main/webapp/assets/stylesheet/wedapp-Posts-index.css" />
         <option value="$PROJECT_DIR$/src/main/webapp/assets/stylesheet/public.css" />
-        <option value="$APPLICATION_CONFIG_DIR$/consoles/db/a928cf6a-52d5-44f4-b225-797250bc1620/console.sql" />
-        <option value="$PROJECT_DIR$/src/main/java/fish/miniblog/controller/PostController.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/posts/index.jsp" />
-        <option value="$PROJECT_DIR$/src/main/java/fish/miniblog/dao/UsersDao.java" />
-        <option value="$PROJECT_DIR$/src/main/java/fish/miniblog/service/UsersService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/fish/miniblog/model/Comments.java" />
+        <option value="$PROJECT_DIR$/src/main/java/fish/miniblog/model/Posts.java" />
+        <option value="$PROJECT_DIR$/src/main/java/fish/miniblog/model/Relationships.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/spring-root.xml" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" />
+        <option value="$PROJECT_DIR$/src/main/resources/spring-miniblog.xml" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/posts/post.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/fish/miniblog/controller/PostController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/fish/miniblog/model/Users.java" />
+        <option value="$APPLICATION_CONFIG_DIR$/consoles/db/a928cf6a-52d5-44f4-b225-797250bc1620/console.sql" />
+        <option value="$PROJECT_DIR$/src/main/java/fish/miniblog/service/UsersService.java" />
         <option value="$PROJECT_DIR$/src/main/java/fish/miniblog/controller/UserController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/fish/miniblog/dao/UsersDao.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/postsAnd/post.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/postsAnd/index.jsp" />
       </list>
     </option>
   </component>
@@ -632,13 +624,15 @@
     <option name="FILTER_WARNINGS" value="false" />
     <option name="FILTER_INFO" value="true" />
     <option name="FILTER_DEBUG" value="true" />
-    <option name="CUSTOM_FILTER" />
+    <option name="CUSTOM_FILTER" value="Model has no value for key " />
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
-    <option name="width" value="1382" />
-    <option name="height" value="754" />
+    <option name="x" value="683" />
+    <option name="width" value="683" />
+    <option name="height" value="738" />
   </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
@@ -655,6 +649,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -746,6 +742,74 @@
               <option name="myItemId" value="main" />
               <option name="myItemType" value="org.jetbrains.plugins.gradle.projectView.GradleTreeStructureProvider$GradleSourceSetDirectoryNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="webapp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="WEB-INF" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="view" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="miniblog17-4-12" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="miniblog17-4-12" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="org.jetbrains.plugins.gradle.projectView.GradleTreeStructureProvider$GradleSourceSetDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="webapp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="WEB-INF" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="view" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="postsAnd" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="miniblog17-4-12" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="miniblog17-4-12" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="org.jetbrains.plugins.gradle.projectView.GradleTreeStructureProvider$GradleSourceSetDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="resources" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -770,6 +834,36 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="miniblog" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="miniblog17-4-12" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="miniblog17-4-12" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="org.jetbrains.plugins.gradle.projectView.GradleTreeStructureProvider$GradleSourceSetDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="miniblog" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="service" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -803,11 +897,69 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="miniblog17-4-12" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="miniblog17-4-12" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="org.jetbrains.plugins.gradle.projectView.GradleTreeStructureProvider$GradleSourceSetDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="miniblog" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="dao" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="miniblog17-4-12" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="miniblog17-4-12" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="org.jetbrains.plugins.gradle.projectView.GradleTreeStructureProvider$GradleSourceSetDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="miniblog" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="controller" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="Scratches" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -815,7 +967,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../cjy" />
-    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="project.structure.last.edited" value="Artifacts" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.36533332" />
     <property name="js.eslint.eslintPackage" value="" />
@@ -835,21 +987,21 @@
     </key>
   </component>
   <component name="RunManager" selected="Tomcat Server.tomcat">
-    <configuration default="false" name="miniblog17-4-12 [clean]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration default="false" name="miniblog17-4-12 [model]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
+        <option name="scriptParameters" />
         <option name="taskDescriptions">
           <list />
         </option>
         <option name="taskNames">
           <list>
-            <option value="clean" />
+            <option value="model" />
           </list>
         </option>
-        <option name="vmOptions" value="" />
+        <option name="vmOptions" />
       </ExternalSystemSettings>
       <method />
     </configuration>
@@ -1386,16 +1538,35 @@
         </option>
       </method>
     </configuration>
-    <list size="4">
+    <configuration default="false" name="miniblog17-4-12 [clean]" type="GradleRunConfiguration" factoryName="Gradle">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="clean" />
+          </list>
+        </option>
+        <option name="vmOptions" value="" />
+      </ExternalSystemSettings>
+      <method />
+    </configuration>
+    <list size="5">
       <item index="0" class="java.lang.String" itemvalue="Gradle.miniblog17-4-12 [copyJars]" />
       <item index="1" class="java.lang.String" itemvalue="Tomcat Server.tomcat" />
       <item index="2" class="java.lang.String" itemvalue="Gradle.miniblog17-4-12 [clean]" />
-      <item index="3" class="java.lang.String" itemvalue="Gradle.miniblog17-4-12 [build]" />
+      <item index="3" class="java.lang.String" itemvalue="Gradle.miniblog17-4-12 [model]" />
+      <item index="4" class="java.lang.String" itemvalue="Gradle.miniblog17-4-12 [build]" />
     </list>
     <recent_temporary>
       <list size="2">
         <item index="0" class="java.lang.String" itemvalue="Gradle.miniblog17-4-12 [build]" />
-        <item index="1" class="java.lang.String" itemvalue="Gradle.miniblog17-4-12 [clean]" />
+        <item index="1" class="java.lang.String" itemvalue="Gradle.miniblog17-4-12 [model]" />
       </list>
     </recent_temporary>
   </component>
@@ -1450,12 +1621,14 @@
       <workItem from="1498094571960" duration="2869000" />
       <workItem from="1504963223382" duration="1225000" />
       <workItem from="1505052337595" duration="8188000" />
-      <workItem from="1505138618939" duration="597000" />
+      <workItem from="1505138618939" duration="27396000" />
+      <workItem from="1505349077588" duration="8160000" />
+      <workItem from="1505435635617" duration="6266000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="196766000" />
+    <option name="totallyTimeSpent" value="237991000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1467,51 +1640,51 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="754" extended-state="7" />
+    <frame x="683" y="0" width="683" height="738" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329582" sideWeight="0.5030257" order="8" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4299517" sideWeight="0.5045386" order="8" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329582" sideWeight="0.4969743" order="16" side_tool="false" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="JRebel Executor" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4299517" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32980332" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="JRebel Executor" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4299517" sideWeight="0.49546143" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="CDI" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25718608" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.18229954" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24879615" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="JSF" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32980332" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.29951692" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329582" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.28985506" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32850242" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32231405" sideWeight="0.5" order="17" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32838285" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3268921" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.42512077" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32850242" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32850242" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329582" sideWeight="0.4969743" order="13" side_tool="false" content_ui="tabs" />
-      <window_info id="JRebel remote servers log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32838285" sideWeight="0.5" order="14" side_tool="true" content_ui="tabs" />
+      <window_info id="JRebel remote servers log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4299517" sideWeight="0.5045386" order="14" side_tool="true" content_ui="tabs" />
       <window_info id="Persistence" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.38653556" sideWeight="0.49109414" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
-      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.23505977" sideWeight="0.5089058" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="JRebel" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
-      <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.1482602" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Database Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.44283414" sideWeight="0.5" order="15" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.42857143" sideWeight="0.49109414" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32980332" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2344932" sideWeight="0.5089058" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="JRebel" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3297587" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
+      <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.31240544" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="combo" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3236715" sideWeight="0.5" order="17" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="13" side_tool="true" content_ui="tabs" />
-      <window_info id="Database Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32206118" sideWeight="0.5" order="15" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
@@ -1571,57 +1744,111 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/fish/miniblog/controller/UserController.java</url>
-          <line>95</line>
+          <line>97</line>
           <properties />
           <option name="timeStamp" value="59" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/fish/miniblog/controller/UserController.java</url>
-          <line>97</line>
+          <line>99</line>
           <properties />
           <option name="timeStamp" value="60" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/fish/miniblog/dao/UsersDao.java</url>
-          <line>120</line>
+          <line>135</line>
           <properties />
           <option name="timeStamp" value="73" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/fish/miniblog/dao/UsersDao.java</url>
-          <line>117</line>
+          <line>132</line>
           <properties />
           <option name="timeStamp" value="74" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/fish/miniblog/dao/UsersDao.java</url>
-          <line>114</line>
+          <line>129</line>
           <properties />
           <option name="timeStamp" value="75" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/fish/miniblog/controller/PostController.java</url>
-          <line>62</line>
+          <line>74</line>
           <properties />
-          <option name="timeStamp" value="76" />
+          <option name="timeStamp" value="83" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/fish/miniblog/controller/PostController.java</url>
+          <line>95</line>
+          <properties />
+          <option name="timeStamp" value="84" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/fish/miniblog/controller/PostController.java</url>
+          <line>98</line>
+          <properties />
+          <option name="timeStamp" value="85" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/fish/miniblog/controller/PostController.java</url>
+          <line>77</line>
+          <properties />
+          <option name="timeStamp" value="86" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/fish/miniblog/service/UsersService.java</url>
+          <line>56</line>
+          <properties />
+          <option name="timeStamp" value="98" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/fish/miniblog/service/UsersService.java</url>
+          <line>66</line>
+          <properties />
+          <option name="timeStamp" value="100" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/fish/miniblog/controller/UserController.java</url>
-          <line>149</line>
+          <line>121</line>
           <properties />
-          <option name="timeStamp" value="77" />
+          <option name="timeStamp" value="101" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/fish/miniblog/dao/UsersDao.java</url>
+          <line>65</line>
+          <properties />
+          <option name="timeStamp" value="102" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/fish/miniblog/service/UsersService.java</url>
+          <line>78</line>
+          <properties />
+          <option name="timeStamp" value="103" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/fish/miniblog/dao/UsersDao.java</url>
+          <line>56</line>
+          <properties />
+          <option name="timeStamp" value="105" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/fish/miniblog/controller/UserController.java</url>
-          <line>155</line>
+          <line>123</line>
           <properties />
-          <option name="timeStamp" value="78" />
+          <option name="timeStamp" value="106" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/fish/miniblog/service/UsersService.java</url>
+          <line>58</line>
+          <properties />
+          <option name="timeStamp" value="107" />
         </line-breakpoint>
       </breakpoints>
       <breakpoints-dialog>
         <breakpoints-dialog />
       </breakpoints-dialog>
-      <option name="time" value="79" />
+      <option name="time" value="108" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -1630,34 +1857,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/fish/miniblog/model/Users.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="16" column="28" lean-forward="false" selection-start-line="16" selection-start-column="28" selection-end-line="16" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/view/posts/users.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="748">
-          <caret line="44" column="22" lean-forward="false" selection-start-line="44" selection-start-column="22" selection-end-line="44" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/view/login.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="18" column="25" lean-forward="false" selection-start-line="18" selection-start-column="25" selection-end-line="18" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/view/posts/post.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1020">
-          <caret line="60" column="79" lean-forward="false" selection-start-line="60" selection-start-column="75" selection-end-line="60" selection-end-column="79" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/fish/miniblog/controller/UserController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1258">
@@ -1673,7 +1872,7 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="imports" expanded="false" />
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1699,7 +1898,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/view/posts/users.jsp">
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/view/postsAnd/users.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="748">
           <caret line="44" column="22" lean-forward="false" selection-start-line="44" selection-start-column="22" selection-end-line="44" selection-end-column="22" />
@@ -1713,7 +1912,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/view/posts/post.jsp">
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/view/postsAnd/post.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1020">
           <caret line="60" column="79" lean-forward="false" selection-start-line="60" selection-start-column="75" selection-end-line="60" selection-end-column="79" />
@@ -1770,17 +1969,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/view/posts/users.jsp">
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/view/postsAnd/users.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="108">
           <caret line="36" column="22" lean-forward="false" selection-start-line="36" selection-start-column="22" selection-end-line="36" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/view/index.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="28" column="28" lean-forward="true" selection-start-line="28" selection-start-column="28" selection-end-line="28" selection-end-column="28" />
         </state>
       </provider>
     </entry>
@@ -1791,13 +1983,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/hibernate.cfg.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="21" lean-forward="true" selection-start-line="5" selection-start-column="21" selection-end-line="5" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/db.properties">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -1805,60 +1990,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/spring-miniblog.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="47" lean-forward="false" selection-start-line="16" selection-start-column="44" selection-end-line="16" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/spring-root.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="748">
-          <caret line="44" column="11" lean-forward="true" selection-start-line="44" selection-start-column="11" selection-end-line="44" selection-end-column="11" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework/spring-core/4.3.5.RELEASE/80299e3f80e8c6d5c076db2ba6adf44a4b52f578/spring-core-4.3.5.RELEASE.jar!/org/springframework/cglib/proxy/MethodProxy.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="489">
-          <caret line="106" column="0" lean-forward="false" selection-start-line="106" selection-start-column="0" selection-end-line="106" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/fish/miniblog/model/Relationships.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="11" column="29" lean-forward="false" selection-start-line="11" selection-start-column="16" selection-end-line="11" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/view/login.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="44" column="39" lean-forward="true" selection-start-line="44" selection-start-column="39" selection-end-line="44" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/view/regist.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="142">
-          <caret line="18" column="47" lean-forward="false" selection-start-line="18" selection-start-column="47" selection-end-line="18" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/fish/miniblog/md5/MD5.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="26" lean-forward="false" selection-start-line="0" selection-start-column="26" selection-end-line="0" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/fish/miniblog/model/Users.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1059">
-          <caret line="93" column="18" lean-forward="false" selection-start-line="93" selection-start-column="18" selection-end-line="93" selection-end-column="18" />
         </state>
       </provider>
     </entry>
@@ -1904,10 +2039,22 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.hibernate/hibernate-core/5.1.0.Final/88a4d5e57ab2cb0fef12866c008c90fbb2ecde37/hibernate-core-5.1.0.Final-sources.jar!/org/hibernate/Session.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/fish/miniblog/model/Posts.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="515" column="9" lean-forward="false" selection-start-line="515" selection-start-column="9" selection-end-line="515" selection-end-column="9" />
+        <state relative-caret-position="17">
+          <caret line="20" column="16" lean-forward="false" selection-start-line="20" selection-start-column="12" selection-end-line="20" selection-end-column="16" />
+          <folding>
+            <element signature="e#1191#1192#0" expanded="false" />
+            <element signature="e#1216#1217#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/fish/miniblog/model/Relationships.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="19" column="16" lean-forward="false" selection-start-line="19" selection-start-column="12" selection-end-line="19" selection-end-column="16" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1915,120 +2062,198 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
           <caret line="12" column="19" lean-forward="false" selection-start-line="12" selection-start-column="19" selection-end-line="12" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/fish/miniblog/model/Posts.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="20" column="16" lean-forward="false" selection-start-line="20" selection-start-column="12" selection-end-line="20" selection-end-column="16" />
           <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#1191#1192#0" expanded="false" />
-            <element signature="e#1216#1217#0" expanded="false" />
-            <element signature="e#1250#1251#0" expanded="false" />
-            <element signature="e#1278#1279#0" expanded="false" />
-            <element signature="e#1309#1310#0" expanded="false" />
-            <element signature="e#1336#1337#0" expanded="false" />
-            <element signature="e#1376#1377#0" expanded="false" />
-            <element signature="e#1408#1409#0" expanded="false" />
-            <element signature="e#1443#1444#0" expanded="false" />
-            <element signature="e#1475#1476#0" expanded="false" />
-            <element signature="e#1524#1525#0" expanded="false" />
-            <element signature="e#1566#1567#0" expanded="false" />
-            <element signature="e#1600#1601#0" expanded="false" />
-            <element signature="e#1632#1633#0" expanded="false" />
-            <element signature="e#1680#1681#0" expanded="false" />
-            <element signature="e#1722#1723#0" expanded="false" />
-            <element signature="e#1756#1757#0" expanded="false" />
-            <element signature="e#1788#1789#0" expanded="false" />
-            <element signature="e#1836#1837#0" expanded="false" />
-            <element signature="e#1878#1879#0" expanded="false" />
-            <element signature="e#1922#1923#0" expanded="false" />
-            <element signature="e#1954#1955#0" expanded="false" />
-            <element signature="e#2012#2013#0" expanded="false" />
-            <element signature="e#2054#2055#0" expanded="false" />
+            <element signature="e#267#268#0" expanded="false" />
+            <element signature="e#324#325#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/fish/miniblog/dao/UsersDao.java">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/hibernate.cfg.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2924">
-          <caret line="186" column="0" lean-forward="false" selection-start-line="186" selection-start-column="0" selection-end-line="195" selection-end-column="5" />
-          <folding>
-            <marker date="1505059860450" expanded="true" signature="1278:1319" ph="update users... " />
-            <marker date="1505059860450" expanded="true" signature="2907:2948" ph="DELETE from " />
-            <marker date="1505059860450" expanded="true" signature="3562:3629" ph="delete from " />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/fish/miniblog/service/UsersService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2533">
-          <caret line="186" column="36" lean-forward="false" selection-start-line="186" selection-start-column="36" selection-end-line="186" selection-end-column="36" />
+        <state relative-caret-position="85">
+          <caret line="5" column="21" lean-forward="true" selection-start-line="5" selection-start-column="21" selection-end-line="5" selection-end-column="21" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/view/posts/index.jsp">
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/view/regist.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="748">
-          <caret line="44" column="42" lean-forward="false" selection-start-line="44" selection-start-column="37" selection-end-line="44" selection-end-column="42" />
+        <state relative-caret-position="142">
+          <caret line="18" column="47" lean-forward="false" selection-start-line="18" selection-start-column="47" selection-end-line="18" selection-end-column="47" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/view/posts/post.jsp">
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_66/jre/lib/rt.jar!/sun/reflect/NativeMethodAccessorImpl.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1938">
-          <caret line="114" column="101" lean-forward="false" selection-start-line="114" selection-start-column="101" selection-end-line="114" selection-end-column="101" />
-          <folding>
-            <element signature="n#c:if#0;n#c:forEach#0;n#c:forEach#0;n#jsp:root#0;n#!!top" expanded="false" />
-          </folding>
+        <state relative-caret-position="323">
+          <caret line="30" column="0" lean-forward="false" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/a928cf6a-52d5-44f4-b225-797250bc1620/console.sql">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/spring-root.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1904">
-          <caret line="112" column="0" lean-forward="false" selection-start-line="112" selection-start-column="0" selection-end-line="113" selection-end-column="23" />
+        <state relative-caret-position="935">
+          <caret line="55" column="8" lean-forward="true" selection-start-line="55" selection-start-column="8" selection-end-line="55" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/spring-miniblog.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="259">
+          <caret line="25" column="0" lean-forward="true" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="332">
+          <caret line="76" column="22" lean-forward="false" selection-start-line="76" selection-start-column="22" selection-end-line="76" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/view/index.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="28" column="28" lean-forward="true" selection-start-line="28" selection-start-column="28" selection-end-line="28" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/view/login.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="44" column="39" lean-forward="true" selection-start-line="44" selection-start-column="39" selection-end-line="44" selection-end-column="39" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/view/postsAnd/edit.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/fish/miniblog/model/Comments.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="130">
+          <caret line="13" column="13" lean-forward="false" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.hibernate/hibernate-core/5.1.0.Final/88a4d5e57ab2cb0fef12866c008c90fbb2ecde37/hibernate-core-5.1.0.Final-sources.jar!/org/hibernate/Session.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="449" column="9" lean-forward="false" selection-start-line="449" selection-start-column="9" selection-end-line="449" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework/spring-aop/4.3.5.RELEASE/2c4ffa40bcf102c731e76dc25e0454458538e052/spring-aop-4.3.5.RELEASE-sources.jar!/org/springframework/aop/framework/CglibAopProxy.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="137">
+          <caret line="720" column="0" lean-forward="false" selection-start-line="720" selection-start-column="0" selection-end-line="720" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework/spring-web/4.3.5.RELEASE/880796aaf6acaa40144c435d41a1b2ea509fa4ae/spring-web-4.3.5.RELEASE-sources.jar!/org/springframework/web/method/support/InvocableHandlerMethod.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="219" column="0" lean-forward="false" selection-start-line="219" selection-start-column="0" selection-end-line="219" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/fish/miniblog/controller/PostController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="476">
-          <caret line="41" column="34" lean-forward="false" selection-start-line="41" selection-start-column="30" selection-end-line="41" selection-end-column="34" />
+        <state relative-caret-position="-51">
+          <caret line="60" column="32" lean-forward="false" selection-start-line="60" selection-start-column="32" selection-end-line="60" selection-end-column="45" />
           <folding>
-            <element signature="imports" expanded="false" />
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/fish/miniblog/model/Comments.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/fish/miniblog/model/Users.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="13" column="13" lean-forward="false" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework/spring-web/4.3.5.RELEASE/880796aaf6acaa40144c435d41a1b2ea509fa4ae/spring-web-4.3.5.RELEASE-sources.jar!/org/springframework/web/method/support/InvocableHandlerMethod.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="228" column="0" lean-forward="false" selection-start-line="228" selection-start-column="0" selection-end-line="228" selection-end-column="0" />
+        <state relative-caret-position="493">
+          <caret line="52" column="24" lean-forward="false" selection-start-line="52" selection-start-column="12" selection-end-line="52" selection-end-column="24" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/fish/miniblog/controller/UserController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="157" column="44" lean-forward="false" selection-start-line="157" selection-start-column="43" selection-end-line="157" selection-end-column="44" />
+        <state relative-caret-position="230">
+          <caret line="121" column="0" lean-forward="false" selection-start-line="121" selection-start-column="0" selection-end-line="121" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework/spring-core/4.3.5.RELEASE/80299e3f80e8c6d5c076db2ba6adf44a4b52f578/spring-core-4.3.5.RELEASE.jar!/org/springframework/cglib/proxy/MethodProxy.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="106" column="0" lean-forward="false" selection-start-line="106" selection-start-column="0" selection-end-line="106" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/fish/miniblog/dao/UsersDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="230">
+          <caret line="58" column="0" lean-forward="false" selection-start-line="58" selection-start-column="0" selection-end-line="58" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <marker date="1505441178817" expanded="true" signature="1448:1478" ph="update users... " />
+            <marker date="1505441178817" expanded="true" signature="1448:1488" ph="update users... " />
+            <marker date="1505441178817" expanded="true" signature="1816:1857" ph="update users... " />
+            <marker date="1505441178817" expanded="true" signature="3490:3531" ph="DELETE from " />
+            <marker date="1505441178817" expanded="true" signature="4147:4214" ph="delete from " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/fish/miniblog/service/UsersService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="91" column="14" lean-forward="true" selection-start-line="91" selection-start-column="14" selection-end-line="91" selection-end-column="14" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#2261#2262#0" expanded="true" />
+            <element signature="e#2301#2302#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/a928cf6a-52d5-44f4-b225-797250bc1620/console.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1785">
+          <caret line="105" column="20" lean-forward="true" selection-start-line="105" selection-start-column="20" selection-end-line="105" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/view/postsAnd/post.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="273">
+          <caret line="115" column="52" lean-forward="false" selection-start-line="115" selection-start-column="52" selection-end-line="117" selection-end-column="58" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/view/postsAnd/index.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="116" column="34" lean-forward="true" selection-start-line="116" selection-start-column="34" selection-end-line="116" selection-end-column="34" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -2070,7 +2295,7 @@
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.2" />
+                <option value="0.36533332" />
               </list>
             </option>
           </splitter-proportions>
@@ -2082,7 +2307,7 @@
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.2" />
+                <option value="0.36533332" />
               </list>
             </option>
           </splitter-proportions>
@@ -2118,7 +2343,7 @@
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.5840708" />
+                <option value="0.36533332" />
               </list>
             </option>
           </splitter-proportions>

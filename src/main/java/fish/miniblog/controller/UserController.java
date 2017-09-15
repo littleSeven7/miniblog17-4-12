@@ -1,6 +1,5 @@
 package fish.miniblog.controller;
 
-import fish.miniblog.model.Comments;
 import fish.miniblog.model.Posts;
 import fish.miniblog.model.Users;
 import fish.miniblog.service.UsersService;
@@ -15,6 +14,7 @@ import javax.annotation.Resource;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpSession;
 import javax.validation.Valid;
+import java.util.Date;
 
 
 @Controller
@@ -24,7 +24,6 @@ public class UserController {
 
     @Resource
     private UsersService usersService;
-
 
 
     // 首页    /(ㄒoㄒ)/~~  没登录的首页
@@ -81,17 +80,20 @@ public class UserController {
 
     // 添加新的用户（进入到注册页面后的提交处理）
     @RequestMapping(value = "addHandle", method = RequestMethod.POST)
-    public String create(@Valid Users users, Errors errors, HttpSession session) {
+    public String create(@Valid Users users, Errors errors, HttpSession session, HttpServletRequest request) {
         if (errors.hasErrors()) {
             return "regist";
         }
-        users.getPassword_d();
-/*
+//        users.getPassword_d();
 
-        MD5 md5 = new MD5();
-        md5.getMD5ofStr(users.getPassword_d());
 
-*/
+/**
+ MD5 md5 = new MD5();
+ md5.getMD5ofStr(users.getPassword_d());
+
+ */
+        String basePath = request.getScheme() + "://" + request.getServerName() + ":" + request.getServerPort();
+        users.setActivation_d(basePath);
 
         usersService.regist(users);
         System.out.println("添加新的用户（进入到注册页面后的提交处理）");
@@ -105,19 +107,29 @@ public class UserController {
     }
 
     // 发邮箱里的 a连接
-    @RequestMapping(value = "/account_activations", method = RequestMethod.GET)
-    public String account_activations(Users u) {
-        u.getId();
+    @RequestMapping(value = "/account_activations")
+    public String account_activations(long id, String name, String email, String password_d, Date created_t, String picture, String admin) {
+//http://localhost:8080/users/account_activations?id=43&name=241111113&email=1152100196@qq.com&password_d=1111&created_t=Fri%20Sep%2015%2009:31:57%20CST%202017&picture=1.jpg&admin=f
+        Users u = new Users();
+        u.setId(id);
+        u.setName(name);
+        u.setEmail(email);
+        u.setPassword_d(password_d);
+        u.setCreated_t(created_t);
+        u.setPicture(picture);
+        u.setAdmin(admin);
+
         usersService.getUsersById(u);
 
         return "redirect: /posts/index";
     }
 
+
     // 进入个人信息更改页面 post/${session_user.id}/edit
     @RequestMapping(value = "post/{id}/edit", method = RequestMethod.GET)
     public String edit(Users users) {
         System.out.println("进入个人信息更改页面");
-        return "posts/edit";
+        return "postsAnd/edit";
     }
 
 
@@ -138,32 +150,6 @@ public class UserController {
         } else {
             model.addAttribute("info", "发布失败！");
             return "redirect: /posts/index";
-        }
-
-    }
-
-
-    @RequestMapping(value = "/comments", method = RequestMethod.POST)
-    public String comments(HttpSession session, Model model, HttpServletRequest request) {
-        String body = request.getParameter("body"); // 评论的内容
-        Users u = (Users) session.getAttribute("session_login_user");//使用这个会话的，就是当前用户
-        int p = request.getIntHeader("commId"); // 就是当前用户查看的（非自己）
-        Posts posts = new Posts();
-        posts.setId(p);
-        Comments c = new Comments();
-        c.setBody(body);
-        c.setC_user_id(u);//被评论者
-        c.setC_post_id(posts);//评论者
-
-        boolean bl = usersService.comments(c);
-        if (bl) {
-
-            model.addAttribute("info", "评论成功！");
-
-            return "redirect: /posts/{id}";
-        } else {
-            model.addAttribute("info", "评论失败！");
-            return "redirect: /posts/{id}";
         }
 
     }
