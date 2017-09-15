@@ -7,57 +7,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="54811ed4-b2ef-4307-9d71-34780e9fc7fc" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/main/fish/miniblog/controller/UserController.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/main/fish/miniblog/dao/UsersDao.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/libs/exploded/miniblog17-4-12-0.01.war/META-INF/MANIFEST.MF" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/libs/exploded/miniblog17-4-12-0.01.war/WEB-INF/view/posts/edit.jsp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/libs/exploded/miniblog17-4-12-0.01.war/WEB-INF/view/posts/index.jsp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/libs/exploded/miniblog17-4-12-0.01.war/WEB-INF/view/posts/post.jsp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/libs/exploded/miniblog17-4-12-0.01.war/WEB-INF/view/posts/users.jsp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/tmp/war/MANIFEST.MF" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/miniblog17_4_12_main_war_exploded/WEB-INF/view/posts/edit.jsp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/miniblog17_4_12_main_war_exploded/WEB-INF/view/posts/index.jsp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/miniblog17_4_12_main_war_exploded/WEB-INF/view/posts/post.jsp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/miniblog17_4_12_main_war_exploded/WEB-INF/view/posts/users.jsp" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/3.1/taskArtifacts/cache.properties.lock" afterPath="$PROJECT_DIR$/.gradle/3.1/taskArtifacts/cache.properties.lock" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/3.1/taskArtifacts/fileHashes.bin" afterPath="$PROJECT_DIR$/.gradle/3.1/taskArtifacts/fileHashes.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/3.1/taskArtifacts/fileSnapshots.bin" afterPath="$PROJECT_DIR$/.gradle/3.1/taskArtifacts/fileSnapshots.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/3.1/taskArtifacts/taskArtifacts.bin" afterPath="$PROJECT_DIR$/.gradle/3.1/taskArtifacts/taskArtifacts.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources/a928cf6a-52d5-44f4-b225-797250bc1620/_metadata_/metadata" afterPath="$PROJECT_DIR$/.idea/dataSources/a928cf6a-52d5-44f4-b225-797250bc1620/_metadata_/metadata" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources/a928cf6a-52d5-44f4-b225-797250bc1620/_metadata_/metadata.values.at" afterPath="$PROJECT_DIR$/.idea/dataSources/a928cf6a-52d5-44f4-b225-797250bc1620/_metadata_/metadata.values.at" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/main/fish/miniblog/controller/PostController.class" afterPath="$PROJECT_DIR$/build/classes/main/fish/miniblog/controller/PostController.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/main/fish/miniblog/model/Users.class" afterPath="$PROJECT_DIR$/build/classes/main/fish/miniblog/model/Users.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/main/fish/miniblog/service/UsersService.class" afterPath="$PROJECT_DIR$/build/classes/main/fish/miniblog/service/UsersService.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/libs/exploded/miniblog17-4-12-0.01.war/WEB-INF/classes/fish/miniblog/controller/PostController.class" afterPath="$PROJECT_DIR$/build/libs/exploded/miniblog17-4-12-0.01.war/WEB-INF/classes/fish/miniblog/controller/PostController.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/libs/exploded/miniblog17-4-12-0.01.war/WEB-INF/classes/fish/miniblog/controller/UserController.class" afterPath="$PROJECT_DIR$/build/libs/exploded/miniblog17-4-12-0.01.war/WEB-INF/classes/fish/miniblog/controller/UserController.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/libs/exploded/miniblog17-4-12-0.01.war/WEB-INF/classes/fish/miniblog/dao/UsersDao.class" afterPath="$PROJECT_DIR$/build/libs/exploded/miniblog17-4-12-0.01.war/WEB-INF/classes/fish/miniblog/dao/UsersDao.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/libs/exploded/miniblog17-4-12-0.01.war/WEB-INF/classes/fish/miniblog/model/Users.class" afterPath="$PROJECT_DIR$/build/libs/exploded/miniblog17-4-12-0.01.war/WEB-INF/classes/fish/miniblog/model/Users.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/libs/exploded/miniblog17-4-12-0.01.war/WEB-INF/classes/fish/miniblog/service/UsersService.class" afterPath="$PROJECT_DIR$/build/libs/exploded/miniblog17-4-12-0.01.war/WEB-INF/classes/fish/miniblog/service/UsersService.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/libs/miniblog17-4-12-0.01.war" afterPath="$PROJECT_DIR$/build/libs/miniblog17-4-12-0.01.war" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/miniblog17_4_12_main_war_exploded/WEB-INF/classes/fish/miniblog/controller/PostController.class" afterPath="$PROJECT_DIR$/out/artifacts/miniblog17_4_12_main_war_exploded/WEB-INF/classes/fish/miniblog/controller/PostController.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/miniblog17_4_12_main_war_exploded/WEB-INF/classes/fish/miniblog/controller/UserController.class" afterPath="$PROJECT_DIR$/out/artifacts/miniblog17_4_12_main_war_exploded/WEB-INF/classes/fish/miniblog/controller/UserController.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/miniblog17_4_12_main_war_exploded/WEB-INF/classes/fish/miniblog/dao/UsersDao.class" afterPath="$PROJECT_DIR$/out/artifacts/miniblog17_4_12_main_war_exploded/WEB-INF/classes/fish/miniblog/dao/UsersDao.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/miniblog17_4_12_main_war_exploded/WEB-INF/classes/fish/miniblog/model/Users.class" afterPath="$PROJECT_DIR$/out/artifacts/miniblog17_4_12_main_war_exploded/WEB-INF/classes/fish/miniblog/model/Users.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/miniblog17_4_12_main_war_exploded/WEB-INF/classes/fish/miniblog/service/UsersService.class" afterPath="$PROJECT_DIR$/out/artifacts/miniblog17_4_12_main_war_exploded/WEB-INF/classes/fish/miniblog/service/UsersService.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/miniblog17_4_12_main_war_exploded/miniblog17-4-12-0.01.war" afterPath="$PROJECT_DIR$/out/artifacts/miniblog17_4_12_main_war_exploded/miniblog17-4-12-0.01.war" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/artifacts/Gradle___miniblog17_4_12___miniblog17_4_12_0_01_war.xml" afterPath="$PROJECT_DIR$/.idea/artifacts/Gradle___miniblog17_4_12___miniblog17_4_12_0_01_war.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/artifacts/Gradle___miniblog17_4_12___miniblog17_4_12_0_01_war__exploded_.xml" afterPath="$PROJECT_DIR$/.idea/artifacts/Gradle___miniblog17_4_12___miniblog17_4_12_0_01_war__exploded_.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources/a928cf6a-52d5-44f4-b225-797250bc1620.xml" afterPath="$PROJECT_DIR$/.idea/dataSources/a928cf6a-52d5-44f4-b225-797250bc1620.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/libs/exploded/miniblog17-4-12-0.01.war/WEB-INF/classes/spring-root.xml" afterPath="$PROJECT_DIR$/build/libs/exploded/miniblog17-4-12-0.01.war/WEB-INF/classes/spring-root.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/resources/main/spring-root.xml" afterPath="$PROJECT_DIR$/build/resources/main/spring-root.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/miniblog17_4_12_main_war_exploded/WEB-INF/classes/spring-root.xml" afterPath="$PROJECT_DIR$/out/artifacts/miniblog17_4_12_main_war_exploded/WEB-INF/classes/spring-root.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/miniblog17-4-12/spring-root.xml" afterPath="$PROJECT_DIR$/out/production/miniblog17-4-12/spring-root.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/fish/miniblog/controller/PostController.java" afterPath="$PROJECT_DIR$/src/main/java/fish/miniblog/controller/PostController.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/fish/miniblog/controller/UserController.java" afterPath="$PROJECT_DIR$/src/main/java/fish/miniblog/controller/UserController.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/fish/miniblog/dao/UsersDao.java" afterPath="$PROJECT_DIR$/src/main/java/fish/miniblog/dao/UsersDao.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/fish/miniblog/model/Users.java" afterPath="$PROJECT_DIR$/src/main/java/fish/miniblog/model/Users.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/fish/miniblog/service/UsersService.java" afterPath="$PROJECT_DIR$/src/main/java/fish/miniblog/service/UsersService.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/spring-root.xml" afterPath="$PROJECT_DIR$/src/main/resources/spring-root.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/posts/edit.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/postsAnd/edit.jsp" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/posts/index.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/postsAnd/index.jsp" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/posts/post.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/postsAnd/post.jsp" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/posts/users.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/postsAnd/users.jsp" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -153,8 +103,8 @@
       <file leaf-file-name="console.sql" pinned="false" current-in-tab="false">
         <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/a928cf6a-52d5-44f4-b225-797250bc1620/console.sql">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1785">
-              <caret line="105" column="20" lean-forward="true" selection-start-line="105" selection-start-column="20" selection-end-line="105" selection-end-column="20" />
+            <state relative-caret-position="170">
+              <caret line="103" column="0" lean-forward="true" selection-start-line="103" selection-start-column="0" selection-end-line="105" selection-end-column="20" />
               <folding />
             </state>
           </provider>
@@ -163,9 +113,12 @@
       <file leaf-file-name="Users.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/fish/miniblog/model/Users.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="493">
-              <caret line="52" column="24" lean-forward="false" selection-start-line="52" selection-start-column="12" selection-end-line="52" selection-end-column="24" />
-              <folding />
+            <state relative-caret-position="1150">
+              <caret line="77" column="16" lean-forward="false" selection-start-line="77" selection-start-column="16" selection-end-line="77" selection-end-column="16" />
+              <folding>
+                <element signature="e#2409#2410#0" expanded="true" />
+                <element signature="e#2434#2435#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -195,32 +148,32 @@
       <file leaf-file-name="UsersService.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/fish/miniblog/service/UsersService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
-              <caret line="91" column="14" lean-forward="true" selection-start-line="91" selection-start-column="14" selection-end-line="91" selection-end-column="14" />
+            <state relative-caret-position="130">
+              <caret line="66" column="0" lean-forward="false" selection-start-line="66" selection-start-column="0" selection-end-line="66" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#2261#2262#0" expanded="true" />
-                <element signature="e#2301#2302#0" expanded="true" />
+                <element signature="e#2305#2306#0" expanded="true" />
+                <element signature="e#2345#2346#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.jsp" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index.jsp" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/view/postsAnd/index.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="425">
-              <caret line="116" column="34" lean-forward="true" selection-start-line="116" selection-start-column="34" selection-end-line="116" selection-end-column="34" />
+            <state relative-caret-position="272">
+              <caret line="107" column="54" lean-forward="true" selection-start-line="107" selection-start-column="54" selection-end-line="107" selection-end-column="54" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="UsersDao.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="UsersDao.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/fish/miniblog/dao/UsersDao.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="230">
-              <caret line="58" column="0" lean-forward="false" selection-start-line="58" selection-start-column="0" selection-end-line="58" selection-end-column="0" />
+            <state relative-caret-position="298">
+              <caret line="59" column="0" lean-forward="true" selection-start-line="59" selection-start-column="0" selection-end-line="59" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <marker date="1505441178817" expanded="true" signature="1448:1478" ph="update users... " />
@@ -605,11 +558,11 @@
         <option value="$PROJECT_DIR$/src/main/java/fish/miniblog/controller/PostController.java" />
         <option value="$PROJECT_DIR$/src/main/java/fish/miniblog/model/Users.java" />
         <option value="$APPLICATION_CONFIG_DIR$/consoles/db/a928cf6a-52d5-44f4-b225-797250bc1620/console.sql" />
-        <option value="$PROJECT_DIR$/src/main/java/fish/miniblog/service/UsersService.java" />
         <option value="$PROJECT_DIR$/src/main/java/fish/miniblog/controller/UserController.java" />
         <option value="$PROJECT_DIR$/src/main/java/fish/miniblog/dao/UsersDao.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/postsAnd/post.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/postsAnd/index.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/fish/miniblog/service/UsersService.java" />
       </list>
     </option>
   </component>
@@ -630,9 +583,10 @@
     <treeState />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="683" />
-    <option name="width" value="683" />
-    <option name="height" value="738" />
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1382" />
+    <option name="height" value="754" />
   </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
@@ -1623,12 +1577,12 @@
       <workItem from="1505052337595" duration="8188000" />
       <workItem from="1505138618939" duration="27396000" />
       <workItem from="1505349077588" duration="8160000" />
-      <workItem from="1505435635617" duration="6266000" />
+      <workItem from="1505435635617" duration="7223000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="237991000" />
+    <option name="totallyTimeSpent" value="238948000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1640,7 +1594,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="683" y="0" width="683" height="738" extended-state="0" />
+    <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -1658,7 +1612,7 @@
       <window_info id="JSF" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32980332" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.28985506" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.28180355" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32850242" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32231405" sideWeight="0.5" order="17" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
@@ -1798,13 +1752,13 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/fish/miniblog/service/UsersService.java</url>
-          <line>56</line>
+          <line>58</line>
           <properties />
           <option name="timeStamp" value="98" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/fish/miniblog/service/UsersService.java</url>
-          <line>66</line>
+          <line>68</line>
           <properties />
           <option name="timeStamp" value="100" />
         </line-breakpoint>
@@ -1822,7 +1776,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/fish/miniblog/service/UsersService.java</url>
-          <line>78</line>
+          <line>80</line>
           <properties />
           <option name="timeStamp" value="103" />
         </line-breakpoint>
@@ -1840,7 +1794,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/fish/miniblog/service/UsersService.java</url>
-          <line>58</line>
+          <line>60</line>
           <properties />
           <option name="timeStamp" value="107" />
         </line-breakpoint>
@@ -2170,24 +2124,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/fish/miniblog/controller/PostController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-51">
-          <caret line="60" column="32" lean-forward="false" selection-start-line="60" selection-start-column="32" selection-end-line="60" selection-end-column="45" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/fish/miniblog/model/Users.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="493">
-          <caret line="52" column="24" lean-forward="false" selection-start-line="52" selection-start-column="12" selection-end-line="52" selection-end-column="24" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/fish/miniblog/controller/UserController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="230">
@@ -2206,41 +2142,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/fish/miniblog/dao/UsersDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="230">
-          <caret line="58" column="0" lean-forward="false" selection-start-line="58" selection-start-column="0" selection-end-line="58" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <marker date="1505441178817" expanded="true" signature="1448:1478" ph="update users... " />
-            <marker date="1505441178817" expanded="true" signature="1448:1488" ph="update users... " />
-            <marker date="1505441178817" expanded="true" signature="1816:1857" ph="update users... " />
-            <marker date="1505441178817" expanded="true" signature="3490:3531" ph="DELETE from " />
-            <marker date="1505441178817" expanded="true" signature="4147:4214" ph="delete from " />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/fish/miniblog/service/UsersService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="91" column="14" lean-forward="true" selection-start-line="91" selection-start-column="14" selection-end-line="91" selection-end-column="14" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#2261#2262#0" expanded="true" />
-            <element signature="e#2301#2302#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/a928cf6a-52d5-44f4-b225-797250bc1620/console.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1785">
-          <caret line="105" column="20" lean-forward="true" selection-start-line="105" selection-start-column="20" selection-end-line="105" selection-end-column="20" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/view/postsAnd/post.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="273">
@@ -2251,9 +2152,65 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/view/postsAnd/index.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="116" column="34" lean-forward="true" selection-start-line="116" selection-start-column="34" selection-end-line="116" selection-end-column="34" />
+        <state relative-caret-position="272">
+          <caret line="107" column="54" lean-forward="true" selection-start-line="107" selection-start-column="54" selection-end-line="107" selection-end-column="54" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/a928cf6a-52d5-44f4-b225-797250bc1620/console.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="103" column="0" lean-forward="true" selection-start-line="103" selection-start-column="0" selection-end-line="105" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/fish/miniblog/controller/PostController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-51">
+          <caret line="60" column="32" lean-forward="false" selection-start-line="60" selection-start-column="32" selection-end-line="60" selection-end-column="45" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/fish/miniblog/model/Users.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1150">
+          <caret line="77" column="16" lean-forward="false" selection-start-line="77" selection-start-column="16" selection-end-line="77" selection-end-column="16" />
+          <folding>
+            <element signature="e#2409#2410#0" expanded="true" />
+            <element signature="e#2434#2435#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/fish/miniblog/service/UsersService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="130">
+          <caret line="66" column="0" lean-forward="false" selection-start-line="66" selection-start-column="0" selection-end-line="66" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#2305#2306#0" expanded="true" />
+            <element signature="e#2345#2346#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/fish/miniblog/dao/UsersDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="298">
+          <caret line="59" column="0" lean-forward="true" selection-start-line="59" selection-start-column="0" selection-end-line="59" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <marker date="1505441178817" expanded="true" signature="1448:1478" ph="update users... " />
+            <marker date="1505441178817" expanded="true" signature="1448:1488" ph="update users... " />
+            <marker date="1505441178817" expanded="true" signature="1816:1857" ph="update users... " />
+            <marker date="1505441178817" expanded="true" signature="3490:3531" ph="DELETE from " />
+            <marker date="1505441178817" expanded="true" signature="4147:4214" ph="delete from " />
+          </folding>
         </state>
       </provider>
     </entry>

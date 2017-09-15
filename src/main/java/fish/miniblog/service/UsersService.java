@@ -46,10 +46,12 @@ public class UsersService {
      */
 
     public boolean regist(Users u) {
+
         u.setPicture("1.jpg");  // 默认图片   (因为是new是对象   它所有对象都是null 不给它值它是null值)
         u.setAdmin("f");        // 管理员
         u.setActivated("f");    // 是否邮箱激活(给它一个 f=false 值)
-
+        u.getId();
+        boolean bl = usersDao.regist(u);
 //        u.setActivation_d("a"); //激活时给邮箱发送的连接(要带的内容)
 //        String basePath = request.getScheme() + "://" + request.getServerName() + ":" + request.getServerPort();
 
@@ -67,7 +69,7 @@ public class UsersService {
         mailUtil.send(u.getEmail(), sb.toString());
 
 
-        return usersDao.regist(u);
+        return bl;
     }
 
     /**
